@@ -1,5 +1,3 @@
-from flask_sqlalchemy import SQLAlchemy
-from flaskr import db
 from flaskr import create_app
 
 app = create_app()

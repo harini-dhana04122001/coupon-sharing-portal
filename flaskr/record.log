@@ -1,0 +1,201 @@
+2023-01-05 15:40:03,962 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2023-01-05 15:40:03,963 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-01-05 15:40:03,967 INFO werkzeug :  * Restarting with stat
+2023-01-05 15:40:05,505 WARNING werkzeug :  * Debugger is active!
+2023-01-05 15:40:05,510 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 15:40:07,412 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 15:40:07] "[31m[1mGET /user/delete HTTP/1.1[0m" 405 -
+2023-01-05 15:40:23,921 INFO root : ENTERING INTO get_all_user METHOD
+2023-01-05 15:40:23,945 INFO root : Entering into add_user method!
+2023-01-05 15:40:23,953 INFO root : RETURNING USER DETAILS
+2023-01-05 15:40:23,954 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 15:40:23] "GET /user/add HTTP/1.1" 200 -
+2023-01-05 15:40:36,718 INFO root : ENTERING INTO delete_user_by_contact METHOD
+2023-01-05 15:40:36,745 INFO root : ENTERING INTO get_user_by_contact METHOD
+2023-01-05 15:40:36,747 INFO root : Entering into add_user method!
+2023-01-05 15:40:36,799 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 15:40:36] "[35m[1mDELETE /user/delete HTTP/1.1[0m" 500 -
+2023-01-05 15:41:55,412 INFO root : ENTERING INTO get_user_by_contact METHOD
+2023-01-05 15:41:55,416 INFO root : Entering into add_user method!
+2023-01-05 15:41:55,444 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 15:41:55] "[35m[1mGET /user/filter-by-contact?contact=1234567890 HTTP/1.1[0m" 500 -
+2023-01-05 15:42:56,687 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2023-01-05 15:42:56,687 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-01-05 15:42:56,689 INFO werkzeug :  * Restarting with stat
+2023-01-05 15:42:58,162 WARNING werkzeug :  * Debugger is active!
+2023-01-05 15:42:58,169 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 15:42:58,215 INFO root : ENTERING INTO get_user_by_contact METHOD
+2023-01-05 15:42:58,236 INFO root : Entering into add_user method!
+2023-01-05 15:42:58,256 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 15:42:58] "[35m[1mGET /user/filter-by-contact?contact=1234567890 HTTP/1.1[0m" 500 -
+2023-01-05 15:43:01,813 INFO root : ENTERING INTO delete_user_by_contact METHOD
+2023-01-05 15:43:01,825 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 15:43:01] "[35m[1mDELETE /user/delete HTTP/1.1[0m" 500 -
+2023-01-05 15:43:16,538 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\controller.py', reloading
+2023-01-05 15:43:16,872 INFO werkzeug :  * Restarting with stat
+2023-01-05 15:43:18,258 WARNING werkzeug :  * Debugger is active!
+2023-01-05 15:43:18,263 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 15:43:29,650 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2023-01-05 15:43:29,650 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-01-05 15:43:29,654 INFO werkzeug :  * Restarting with stat
+2023-01-05 15:43:31,299 WARNING werkzeug :  * Debugger is active!
+2023-01-05 15:43:31,304 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 15:48:11,823 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2023-01-05 15:48:11,823 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-01-05 15:48:11,825 INFO werkzeug :  * Restarting with stat
+2023-01-05 15:48:12,746 WARNING werkzeug :  * Debugger is active!
+2023-01-05 15:48:12,749 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 15:48:21,942 INFO root : ENTERING INTO add_user METHOD!
+2023-01-05 15:48:21,957 INFO root : SAVED USER DETAILS TO DATABASE
+2023-01-05 15:48:21,958 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 15:48:21] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 201 -
+2023-01-05 15:48:25,840 INFO root : ENTERING INTO get_all_user METHOD
+2023-01-05 15:48:25,842 INFO root : Entering into add_user method!
+2023-01-05 15:48:25,843 INFO root : RETURNING USER DETAILS
+2023-01-05 15:48:25,844 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 15:48:25] "GET /user/add HTTP/1.1" 200 -
+2023-01-05 15:48:43,372 INFO root : ENTERING INTO get_user_by_contact METHOD
+2023-01-05 15:48:43,375 INFO root : Entering into add_user method!
+2023-01-05 15:48:43,375 INFO root : RETURNING USER DETAILS BY CONTACT
+2023-01-05 15:48:43,375 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 15:48:43] "GET /user/filter-by-contact?contact=0987654321 HTTP/1.1" 200 -
+2023-01-05 15:49:14,338 INFO root : ENTERING INTO add_user METHOD!
+2023-01-05 15:49:14,347 INFO root : SAVED USER DETAILS TO DATABASE
+2023-01-05 15:49:14,347 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 15:49:14] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 201 -
+2023-01-05 15:49:20,430 INFO root : ENTERING INTO delete_user_by_contact METHOD
+2023-01-05 15:49:20,442 INFO root : ENTERING INTO get_user_by_contact METHOD
+2023-01-05 15:49:20,443 INFO root : Entering into add_user method!
+2023-01-05 15:49:20,458 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 15:49:20] "[35m[1mDELETE /user/delete HTTP/1.1[0m" 500 -
+2023-01-05 15:49:28,052 INFO root : ENTERING INTO get_all_user METHOD
+2023-01-05 15:49:28,055 INFO root : Entering into add_user method!
+2023-01-05 15:49:28,055 INFO root : RETURNING USER DETAILS
+2023-01-05 15:49:28,057 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 15:49:28] "GET /user/add HTTP/1.1" 200 -
+2023-01-05 15:50:58,080 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2023-01-05 15:50:58,080 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-01-05 15:50:58,082 INFO werkzeug :  * Restarting with stat
+2023-01-05 15:50:58,925 WARNING werkzeug :  * Debugger is active!
+2023-01-05 15:50:58,928 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 15:51:05,995 INFO root : ENTERING INTO delete_user_by_contact METHOD
+2023-01-05 15:51:06,016 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 15:51:06] "[35m[1mDELETE /user/0987654321 HTTP/1.1[0m" 500 -
+2023-01-05 15:52:24,975 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\controller.py', reloading
+2023-01-05 15:52:25,091 INFO werkzeug :  * Restarting with stat
+2023-01-05 15:52:26,238 WARNING werkzeug :  * Debugger is active!
+2023-01-05 15:52:26,243 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 18:14:45,828 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2023-01-05 18:14:45,828 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-01-05 18:14:45,833 INFO werkzeug :  * Restarting with stat
+2023-01-05 18:14:47,667 WARNING werkzeug :  * Debugger is active!
+2023-01-05 18:14:47,671 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 18:14:57,087 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 18:14:57] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 -
+2023-01-05 18:16:06,545 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2023-01-05 18:16:06,545 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-01-05 18:16:06,549 INFO werkzeug :  * Restarting with stat
+2023-01-05 18:16:07,778 WARNING werkzeug :  * Debugger is active!
+2023-01-05 18:16:07,782 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 18:16:13,330 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 18:16:13] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 -
+2023-01-05 18:16:36,722 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\auth\\auth.py', reloading
+2023-01-05 18:16:36,950 INFO werkzeug :  * Restarting with stat
+2023-01-05 18:16:38,636 WARNING werkzeug :  * Debugger is active!
+2023-01-05 18:16:38,644 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 18:16:39,591 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 18:16:39] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 -
+2023-01-05 18:17:44,914 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\exceptions\\exception_handler.py', reloading
+2023-01-05 18:17:45,523 INFO werkzeug :  * Restarting with stat
+2023-01-05 18:17:47,792 WARNING werkzeug :  * Debugger is active!
+2023-01-05 18:17:47,803 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 18:17:47,956 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 18:17:47] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 -
+2023-01-05 18:17:56,745 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 18:17:56] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 -
+2023-01-05 18:18:08,133 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2023-01-05 18:18:08,134 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-01-05 18:18:08,140 INFO werkzeug :  * Restarting with stat
+2023-01-05 18:18:09,706 WARNING werkzeug :  * Debugger is active!
+2023-01-05 18:18:09,710 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 18:18:13,336 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 18:18:13] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 -
+2023-01-05 18:19:41,479 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\exceptions\\apivalidationerror.py', reloading
+2023-01-05 18:19:41,782 INFO werkzeug :  * Restarting with stat
+2023-01-05 18:19:43,670 WARNING werkzeug :  * Debugger is active!
+2023-01-05 18:19:43,686 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 18:19:44,094 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 18:19:44] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 -
+2023-01-05 18:20:06,163 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\exceptions\\exception_handler.py', reloading
+2023-01-05 18:20:06,333 INFO werkzeug :  * Restarting with stat
+2023-01-05 18:20:08,824 WARNING werkzeug :  * Debugger is active!
+2023-01-05 18:20:08,831 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 18:20:09,524 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 18:20:09] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 -
+2023-01-05 18:20:21,346 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2023-01-05 18:20:21,346 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-01-05 18:20:21,348 INFO werkzeug :  * Restarting with stat
+2023-01-05 18:20:22,390 WARNING werkzeug :  * Debugger is active!
+2023-01-05 18:20:22,394 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 18:21:01,709 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2023-01-05 18:21:01,709 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-01-05 18:21:01,713 INFO werkzeug :  * Restarting with stat
+2023-01-05 18:21:03,208 WARNING werkzeug :  * Debugger is active!
+2023-01-05 18:21:03,225 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 18:21:03,317 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 18:21:03] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 -
+2023-01-05 18:21:17,573 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\exceptions\\exception_handler.py', reloading
+2023-01-05 18:21:17,785 INFO werkzeug :  * Restarting with stat
+2023-01-05 18:21:19,176 WARNING werkzeug :  * Debugger is active!
+2023-01-05 18:21:19,181 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 18:22:49,527 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2023-01-05 18:22:49,527 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-01-05 18:22:49,530 INFO werkzeug :  * Restarting with stat
+2023-01-05 18:22:51,067 WARNING werkzeug :  * Debugger is active!
+2023-01-05 18:22:51,073 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 18:23:28,363 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\auth\\auth.py', reloading
+2023-01-05 18:23:28,582 INFO werkzeug :  * Restarting with stat
+2023-01-05 18:23:46,571 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2023-01-05 18:23:46,572 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-01-05 18:23:46,575 INFO werkzeug :  * Restarting with stat
+2023-01-05 18:23:48,228 WARNING werkzeug :  * Debugger is active!
+2023-01-05 18:23:48,236 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 18:23:50,179 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 18:23:50] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 -
+2023-01-05 18:32:34,721 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\exceptions\\exception_handler.py', reloading
+2023-01-05 18:32:35,055 INFO werkzeug :  * Restarting with stat
+2023-01-05 18:32:36,631 WARNING werkzeug :  * Debugger is active!
+2023-01-05 18:32:36,636 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 18:39:16,145 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2023-01-05 18:39:16,145 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-01-05 18:39:16,147 INFO werkzeug :  * Restarting with stat
+2023-01-05 18:39:17,610 WARNING werkzeug :  * Debugger is active!
+2023-01-05 18:39:17,617 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 18:39:20,899 ERROR root : Validation Error: user name is not given
+2023-01-05 18:39:20,900 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 18:39:20] "POST /auth/sign-up HTTP/1.1" 200 -
+2023-01-05 18:40:16,953 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\auth\\auth.py', reloading
+2023-01-05 18:40:17,145 INFO werkzeug :  * Restarting with stat
+2023-01-05 18:40:19,638 WARNING werkzeug :  * Debugger is active!
+2023-01-05 18:40:19,643 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 18:40:19,692 ERROR root : Validation Error: user name is not given
+2023-01-05 18:40:19,693 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 18:40:19] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 -
+2023-01-05 18:42:08,219 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\exceptions\\apivalidationerror.py', reloading
+2023-01-05 18:42:08,398 INFO werkzeug :  * Restarting with stat
+2023-01-05 18:42:10,396 WARNING werkzeug :  * Debugger is active!
+2023-01-05 18:42:10,400 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 18:42:10,543 ERROR root : Validation Error: user name is not given
+2023-01-05 18:42:10,544 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 18:42:10] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 -
+2023-01-05 18:55:32,145 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\auth\\auth.py', reloading
+2023-01-05 18:55:32,392 INFO werkzeug :  * Restarting with stat
+2023-01-05 18:55:34,123 WARNING werkzeug :  * Debugger is active!
+2023-01-05 18:55:34,127 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 19:08:50,806 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2023-01-05 19:08:50,806 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-01-05 19:08:50,808 INFO werkzeug :  * Restarting with stat
+2023-01-05 19:08:52,318 WARNING werkzeug :  * Debugger is active!
+2023-01-05 19:08:52,325 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 19:08:55,696 ERROR root : Validation Error: user name is not given
+2023-01-05 19:08:55,698 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 19:08:55] "POST /auth/sign-up HTTP/1.1" 200 -
+2023-01-05 19:09:32,605 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2023-01-05 19:09:32,605 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-01-05 19:09:32,608 INFO werkzeug :  * Restarting with stat
+2023-01-05 19:09:34,269 WARNING werkzeug :  * Debugger is active!
+2023-01-05 19:09:34,276 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-05 19:09:36,256 ERROR root : Validation Error: user name is not given
+2023-01-05 19:09:36,257 INFO werkzeug : 127.0.0.1 - - [05/Jan/2023 19:09:36] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 -
+2023-01-05 19:18:44,779 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\brands\\controller.py', reloading
+2023-01-05 19:18:45,253 INFO werkzeug :  * Restarting with stat
+2023-01-05 19:18:47,639 WARNING werkzeug :  * Debugger is active!
+2023-01-05 19:18:47,647 INFO werkzeug :  * Debugger PIN: 190-881-970
