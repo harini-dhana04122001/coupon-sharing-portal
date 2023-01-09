@@ -12,10 +12,10 @@ This method takes in data and display it in form of dictionary
 """
 
 
-def json(self):
-    if self is not None:
-        return {'id': self.id, 'brand_name': self.name,
-                'brand_type': self.types}
+def json(data):
+    if data is not None:
+        return {'id': data.id, 'brand_name': data.name,
+                'brand_type': data.types}
     else:
         raise NotFoundException('the given data is not present in database')
 

@@ -3,7 +3,7 @@ import logging
 
 from flask import Blueprint, Response, jsonify, request
 from flaskr.exceptions.notfoundexception import NotFoundException
-from flaskr.users.models import User
+from flaskr.users.service import get_user_by_contact, get_all_user, delete_user_by_contact, update_user
 
 display = Blueprint('display', __name__)
 
@@ -17,7 +17,7 @@ this method to get all users
 @display.route('/', methods=['GET'])
 def get_users():
     logging.info('ENTERING get_user METHOD')
-    user_details = User.get_all_user()
+    user_details = get_all_user()
     if user_details is not None:
         logging.info('EXITING get_users METHOD')
         return jsonify({'User_Details': user_details})
@@ -38,7 +38,7 @@ method to get user by contact number
 def get_by_contact():
     logging.info('ENTERING get_by_contact METHOD')
     contact = request.args.get('contact')
-    user_detail_by_contact = User.get_user_by_contact(contact)
+    user_detail_by_contact = get_user_by_contact(contact)
     if user_detail_by_contact is not None:
         logging.info('EXITING get_by_contact METHOD')
         return jsonify({'User_Details': user_detail_by_contact})
@@ -57,10 +57,10 @@ Delete user by given id
 
 
 @display.route('/<contact>', methods=['DELETE'])
-def delete_user_by_contact(contact):
+def delete_user_by_contacts(contact):
     logging.info('ENTERING delete_user_by_id METHOD')
-    brand = User.get_user_by_contact(contact)
-    User.delete_user_by_contact(contact)
+    brand = get_user_by_contact(contact)
+    delete_user_by_contact(contact)
     if brand:
         response = Response("Deleted Successfully", 200, mimetype='application/json')
         logging.info('EXITING delete_user_by_contact METHOD')
@@ -79,7 +79,7 @@ This method is to create user with given request data
 
 
 @display.route('/update/<user_id>', methods=['PUT'])
-def update_user(user_id):
+def update_users(user_id):
     if request.method == 'PUT':
         user_data = request.get_json()
         username = user_data['user_name']
@@ -87,7 +87,7 @@ def update_user(user_id):
         date_of_birth = user_data['date_of_birth']
         gender = user_data['gender']
         password = user_data['password']
-        User.update_user(user_id, username, contact_number, date_of_birth, gender, password)
+        update_user(user_id, username, contact_number, date_of_birth, gender, password)
         response = Response("User update successfully", 201, mimetype='application/json')
         return response
 
