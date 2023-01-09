@@ -1,63 +1,55 @@
-import uuid
+import pickle
 from datetime import datetime
 
 from sqlalchemy import ForeignKey
 
 from flaskr import db
-from flaskr.brands.models import Brand
-from flaskr.coupons.models import Coupon
-from flaskr.payments.models import Payment
+from flaskr.enums.enum_class import TransactionStatus
+from flaskr.users.models import User
 
 
 class Transaction(db.Model):
     __tablename__ = "transaction"
 
     id = db.Column(db.Integer(), primary_key=True)
-    types = db.Column(db.String())
+    status = db.Column(db.String)
     coupon_id = db.Column(db.Integer(), ForeignKey("coupon.id"))
     buyer_id = db.Column(db.Integer(), ForeignKey("user.id"))
     seller_id = db.Column(db.Integer(), ForeignKey("user.id"))
-    coupon_type = db.Column(db.String())
-    price = db.Column(db.Float())
-    is_successful = db.Column(db.Boolean)
-    is_redeemed = db.Column(db.Boolean, default=False)
+    coupon_price = db.Column(db.Float())
     created_on = db.Column(db.DateTime, default=datetime.now())
     updated_on = db.Column(db.DateTime, default=datetime.now())
+    created_by = db.Column(db.PickleType())
 
-    def __init__(self, transaction_id, types, coupon_id, buyer_id, seller_id,
-                 coupon_type, price, is_successful):
-        self.transaction_id = transaction_id
-        self.types = types
+    def __init__(self, status, coupon_id, buyer_id, seller_id,
+                 price, created_by):
+        self.status = status
         self.coupon_id = coupon_id
         self.buyer_id = buyer_id
         self.seller_id = seller_id
-        self.coupon_type = coupon_type
-        self.price = price
-        self.is_successful = is_successful
+        self.coupon_price = price
+        self.created_by = created_by
 
     def json(self):
-        return {'transaction_id': self.transaction_id, 'coupon_id': self.coupon_id,
-                'buyer_id': self.buyer_id, 'seller_id': self.seller_id, 'type': self.coupon_type,
-                'price': self.price}
+        from flaskr.coupons.models import Coupon
+        return {'transaction_id': self.id, 'coupon_id': Coupon.get_coupon_by_id(self.coupon_id),
+                'buyer': User.get_user_by_id(self.buyer_id), 'seller': User.get_user_by_id(self.seller_id),
+                'status': self.status, 'coupon_price': self.coupon_price}
 
     @staticmethod
-    def buy_coupons(coupon_id, buyer_id, price):
-        payment_detail = Payment.pay()
-        if payment_detail.lower() == 'successful':
-            transaction_id = uuid.uuid4()
-            coupon_selected = Coupon.get_coupon_by_id(coupon_id)
-            types = coupon_selected['brand_type']
-            seller_id = coupon_selected['coupon_holder']
-            coupon_type = Brand.get_by_id(coupon_selected['brand'])
-            is_successful = True
-            db.session.add(Transaction(transaction_id, types, coupon_id, buyer_id, seller_id,
-                           coupon_type, price, is_successful))
+    def create_transaction(status, coupon_id, buyer_id, seller_id, coupon_price):
+        # coupon_selected = Coupon.get_coupon_by_id(coupon_id)
+        if status in [item.value for item in TransactionStatus]:
+            created_by = pickle.dumps(User.get_user_by_id(buyer_id))
+            db.session.add(Transaction(status, coupon_id, buyer_id, seller_id,
+                                       coupon_price, created_by))
             db.session.commit()
 
     @staticmethod
-    def get_all_coupon_history():
-        return [Transaction.json(history) for history in Transaction.query.all()]
+    def get_all_transactions():
+        return [Transaction.json(transaction) for transaction in Transaction.query.all()]
 
     @staticmethod
-    def get_by_history_user_id(user_id):
-        return Transaction.json(Transaction.query.filter_by(seller_id=user_id).all())
+    def get_by_transaction_coupon_id(coupon_id):
+        return [Transaction.json(transaction) for transaction in Transaction.query.
+                filter_by(coupon_id=coupon_id).all()]

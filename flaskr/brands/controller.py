@@ -1,40 +1,75 @@
+import datetime
+import logging
 import uuid
 
 from flask import Blueprint, request, Response, jsonify
 
+from flaskr.exceptions.apivalidationerror import ErrorResponse
+from flaskr.exceptions.notfoundexception import NotFoundException
 from flaskr.transactions.models import Transaction
 from flaskr.brands.models import Brand
-
+from flaskr.utilfile.utilclass import validate_name
 
 display = Blueprint('display', __name__)
 
-""" method to create brand details """
+""" 
+this method to create brand details 
+
+:raise: ErrorResponse if the given data doesn't follow validation conditions.
+"""
 
 
 @display.route('/', methods=['POST'])
 def create_brands():
     brand_data = request.get_json()
-    brand_name = brand_data['name']
-    brand_type = brand_data['type']
-    Brand.add_brand(brand_name, brand_type)
-    response = Response("Brand added successfully", 201, mimetype='application/json')
-    return response
+    if "name" not in brand_data:
+        raise ErrorResponse('brand name is not given')
+    else:
+        if not validate_name(brand_data['name']):
+            raise ErrorResponse('enter brand name with only number and alphabets')
+        elif brand_data['name'] is None:
+            raise ErrorResponse('brand name is empty')
+        else:
+            brand_name = brand_data['name']
+
+    if "type" not in brand_data:
+        raise ErrorResponse('brand type is not given')
+    else:
+        if not validate_name(brand_data['type']):
+            raise ErrorResponse('enter brand type with only alphabets')
+        elif brand_data['type'] is None:
+            raise ErrorResponse('brand type is empty')
+        else:
+            brand_type = brand_data['type']
+            Brand.add_brand(brand_name, brand_type)
+            response = Response("Brand added successfully", 201, mimetype='application/json')
+            return response
 
 
-""" method to get all brand """
+""" 
+this method to get all brand 
+
+:return: return of brand details if brand details is not empty else return error response
+"""
 
 
 @display.route('/', methods=['GET'])
 def get_brands():
     brand_details = Brand.get_all_brands()
     if brand_details is not None:
+        logging.info('Exiting get_brands method')
         return jsonify({'Brand_Details': brand_details})
     else:
+        logging.error(f'error occurred in get_user method', {request.url_root}, request.get_json())
         response = Response("There is no brand details present in database", 500, mimetype='application/json')
         return response
 
 
-""" method to get all brand with given brand name """
+""" 
+method to get all brand with given brand name 
+
+:return: return of brand details if brand details is not empty else return error response.
+"""
 
 
 @display.route('/filter-by-name', methods=['GET'])
@@ -48,7 +83,11 @@ def get_by_brand():
         return response
 
 
-""" method to get all brand with given brand type """
+""" 
+method to get all brand with given brand type 
+
+:return: response in json form with the given brand type
+"""
 
 
 @display.route('/filter-by-type', methods=['GET'])
@@ -99,12 +138,15 @@ def update_by_value(brand_id):
 
 @display.route('/<brand_id>', methods=['DELETE'])
 def delete_brand_by_id(brand_id):
+    logging.info('ENTERING delete_user_by_id METHOD')
     Brand.delete_brand(brand_id)
     brand_deleted = Brand.query.filter_by(id=brand_id, is_active=False).first()
     if brand_deleted is not None:
         response = Response("Deleted Successfully", 200, mimetype='application/json')
+        logging.info('EXITING delete_user_by_id METHOD')
         return response
     else:
+        logging.error(f'error occurred in delete_brand_by_id method : {request.url_root} - {request.get_json()}')
         response = Response("There is no details with this brand id", 404, mimetype='application/json')
         return response
 
@@ -121,3 +163,15 @@ def buy_coupon():
     Transaction.buy_coupons(coupon_id, buyer_id, price)
     response = Response("Coupons added successfully", 201, mimetype='application/json')
     return response
+
+
+@display.errorhandler(NotFoundException)
+def handle_exception(err):
+    """Return custom JSON when APIError are raised"""
+    response = {"error": err.description, "status code": 404, "message": "",
+                "timestamp": datetime.datetime.now()}
+    if len(err.args) > 0:
+        response["message"] = err.args[0]
+        # Add some logging so that we can monitor different types of errors
+        logging.error(f'{err.description} - {request.url_root} - {request.get_data()}: {response["message"]}')
+        return jsonify(response), 404

@@ -199,3 +199,1199 @@
 2023-01-05 19:18:45,253 INFO werkzeug :  * Restarting with stat
 2023-01-05 19:18:47,639 WARNING werkzeug :  * Debugger is active!
 2023-01-05 19:18:47,647 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-06 07:34:27,455 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+2023-01-06 07:34:27,455 INFO werkzeug : [33mPress CTRL+C to quit[0m
+2023-01-06 07:34:27,458 INFO werkzeug :  * Restarting with stat
+2023-01-06 07:34:28,273 WARNING werkzeug :  * Debugger is active!
+2023-01-06 07:34:28,276 INFO werkzeug :  * Debugger PIN: 190-881-970
+2023-01-06 07:34:44,718 ERROR root : Validation Error: user name is not given
+2023-01-06 07:34:44,719 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 07:34:44] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 -
+2023-01-06 07:39:26,704 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\__init__.py', reloading
+2023-01-06 07:39:26,831 INFO werkzeug :  * Restarting with stat
+2023-01-06 07:39:27,862 WARNING werkzeug}:  * Debugger is active! 
+2023-01-06 07:39:27,867 INFO werkzeug}:  * Debugger PIN: 190-881-970 
+2023-01-06 07:40:09,241 INFO werkzeug}:  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\auth\\auth.py', reloading 
+2023-01-06 07:40:09,384 INFO werkzeug :  * Restarting with stat
+2023-01-06 07:44:04,643 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-06 07:44:04,643 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-06 07:44:04,646 INFO werkzeug :  * Restarting with stat 
+2023-01-06 07:44:05,442 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 07:44:05,446 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:04:42,684 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-06 11:04:42,684 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-06 11:04:42,688 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:04:44,360 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:04:44,368 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:05:00,316 ERROR root : Validation Error: user name is not given 
+2023-01-06 11:05:00,319 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:05:00] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 11:05:22,377 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:05:22] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 11:05:44,787 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:05:44] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 - 
+2023-01-06 11:08:58,640 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-06 11:08:58,640 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-06 11:08:58,643 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:09:00,139 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:09:00,143 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:09:30,562 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:09:30] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 - 
+2023-01-06 11:10:27,356 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-06 11:10:27,356 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-06 11:10:27,361 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:10:29,863 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:10:29,870 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:10:45,888 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:10:45] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 201 - 
+2023-01-06 11:11:47,660 ERROR root : Validation Error: enter valid contact number 
+2023-01-06 11:11:47,662 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:11:47] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 11:12:03,178 ERROR root : Validation Error: enter valid date of birth 
+2023-01-06 11:12:03,179 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:12:03] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 11:12:09,032 ERROR root : Validation Error: enter valid date of birth 
+2023-01-06 11:12:09,033 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:12:09] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 11:12:20,382 ERROR root : Validation Error: user name is empty 
+2023-01-06 11:12:20,384 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:12:20] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 11:13:11,576 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\auth\\auth.py', reloading 
+2023-01-06 11:13:11,894 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:13:15,075 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:13:15,083 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:13:46,728 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\utilfile\\utilclass.py', reloading 
+2023-01-06 11:13:47,131 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:13:49,460 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:13:49,464 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:13:56,109 ERROR root : Validation Error: user name is empty 
+2023-01-06 11:13:56,110 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:13:56] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 11:14:13,242 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\auth\\auth.py', reloading 
+2023-01-06 11:14:13,577 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:14:16,116 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:14:16,123 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:14:16,191 ERROR root : Validation Error: enter valid username 
+2023-01-06 11:14:16,192 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:14:16] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 11:15:10,820 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\auth\\auth.py', reloading 
+2023-01-06 11:15:11,096 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:15:14,921 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:15:14,927 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:15:19,206 ERROR root : Validation Error: enter username with only number and alphabets 
+2023-01-06 11:15:19,207 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:15:19] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 11:15:25,315 ERROR root : Validation Error: enter username with only number and alphabets 
+2023-01-06 11:15:25,317 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:15:25] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 11:16:08,304 ERROR root : Validation Error: enter username with only number and alphabets 
+2023-01-06 11:16:08,306 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:16:08] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 11:16:18,053 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\utilfile\\utilclass.py', reloading 
+2023-01-06 11:16:18,385 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:16:20,714 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:16:20,721 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:16:20,774 ERROR root : Validation Error: enter username with only number and alphabets 
+2023-01-06 11:16:20,775 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:16:20] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 11:16:33,856 ERROR root : Validation Error: enter username with only number and alphabets 
+2023-01-06 11:16:33,857 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:16:33] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 11:16:43,727 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\utilfile\\utilclass.py', reloading 
+2023-01-06 11:16:44,320 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:16:45,843 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:16:45,847 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:16:48,532 ERROR root : Validation Error: enter username with only number and alphabets 
+2023-01-06 11:16:48,534 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:16:48] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 11:16:55,580 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\utilfile\\utilclass.py', reloading 
+2023-01-06 11:16:55,890 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:16:58,033 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:16:58,037 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:16:59,288 ERROR root : Validation Error: user name is empty 
+2023-01-06 11:16:59,289 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:16:59] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 11:18:00,680 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\utilfile\\utilclass.py', reloading 
+2023-01-06 11:18:00,983 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:18:03,401 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:18:03,406 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:18:09,289 ERROR root : Validation Error: user name is empty 
+2023-01-06 11:18:09,291 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:18:09] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 11:18:36,821 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\auth\\auth.py', reloading 
+2023-01-06 11:18:37,312 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:18:40,395 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:18:40,400 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:18:40,445 ERROR root : Validation Error: enter valid date of birth 
+2023-01-06 11:18:40,446 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:18:40] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 11:18:57,486 ERROR root : exception is raised for wrong input! 
+2023-01-06 11:18:57,486 ERROR root : Validation Error: enter valid gender 
+2023-01-06 11:18:57,487 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:18:57] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 11:19:07,041 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:19:07] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 201 - 
+2023-01-06 11:21:01,012 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-06 11:21:01,590 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:21:04,177 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:21:04,183 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:22:31,480 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-06 11:22:31,481 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-06 11:22:31,485 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:22:33,896 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:22:33,901 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:23:02,945 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:23:02] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 201 - 
+2023-01-06 11:24:07,970 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:24:07] "GET /user/add HTTP/1.1" 200 - 
+2023-01-06 11:24:36,725 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:24:36] "GET /user/filter-by-contact?contact=1213567890 HTTP/1.1" 200 - 
+2023-01-06 11:25:05,277 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:25:05] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 - 
+2023-01-06 11:26:19,023 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\auth\\auth.py', reloading 
+2023-01-06 11:26:19,210 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:29:20,978 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-06 11:29:20,978 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-06 11:29:20,981 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:29:22,969 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:29:22,974 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:29:30,766 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:29:30] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 - 
+2023-01-06 11:29:49,104 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\auth\\auth.py', reloading 
+2023-01-06 11:29:49,347 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:29:51,088 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:29:51,092 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:29:52,607 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:29:52] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 - 
+2023-01-06 11:31:14,783 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-06 11:31:14,797 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-06 11:31:14,801 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:31:17,719 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:31:17,728 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:31:18,397 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:31:18] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 - 
+2023-01-06 11:37:23,305 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\exceptions\\apiexception.py', reloading 
+2023-01-06 11:37:23,540 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:40:29,408 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-06 11:40:29,408 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-06 11:40:29,410 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:40:30,817 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:40:30,822 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:40:38,509 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\exceptions\\apiexception.py', reloading 
+2023-01-06 11:40:38,750 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:40:40,775 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:40:40,779 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:40:40,872 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:40:40] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 - 
+2023-01-06 11:41:48,742 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\exceptions\\apiexception.py', reloading 
+2023-01-06 11:41:49,146 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:41:52,022 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:41:52,029 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:44:14,260 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-06 11:44:14,260 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-06 11:44:14,263 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:44:16,747 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:44:16,753 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:44:17,009 ERROR root : Validation Error: contact number already exist 
+2023-01-06 11:44:17,011 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:44:17] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 11:44:27,122 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:44:27] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 201 - 
+2023-01-06 11:46:19,058 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\controller.py', reloading 
+2023-01-06 11:46:19,357 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:46:21,818 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:46:21,825 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:46:22,018 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:46:22] "[35m[1mDELETE /user/0987654321 HTTP/1.1[0m" 500 - 
+2023-01-06 11:51:11,842 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\exceptions\\notfoundexception.py', reloading 
+2023-01-06 11:51:12,118 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:51:14,333 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:51:14,339 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:51:22,872 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:51:22] "DELETE /user/1234567890 HTTP/1.1" 200 - 
+2023-01-06 11:52:07,349 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-06 11:52:07,599 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:52:10,862 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:52:10,869 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:52:11,059 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:52:11] "[35m[1mGET /user/filter-by-contact?contact=1213567890 HTTP/1.1[0m" 500 - 
+2023-01-06 11:57:37,760 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-06 11:57:38,211 INFO werkzeug :  * Restarting with stat 
+2023-01-06 11:57:40,782 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 11:57:40,788 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 11:57:45,612 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 11:57:45] "GET /user/filter-by-contact?contact=123789256 HTTP/1.1" 200 - 
+2023-01-06 11:59:08,873 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\exceptions\\notfoundexception.py', reloading 
+2023-01-06 11:59:09,171 INFO werkzeug :  * Restarting with stat 
+2023-01-06 12:06:58,515 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-06 12:06:58,515 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-06 12:06:58,518 INFO werkzeug :  * Restarting with stat 
+2023-01-06 12:06:59,917 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 12:06:59,923 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 12:07:04,623 ERROR root : Details Not found: the given data is not present in database 
+2023-01-06 12:07:04,640 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 12:07:04] "[35m[1mGET /user/filter-by-contact?contact=123789256 HTTP/1.1[0m" 500 - 
+2023-01-06 12:07:38,001 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\controller.py', reloading 
+2023-01-06 12:07:38,262 INFO werkzeug :  * Restarting with stat 
+2023-01-06 12:07:40,929 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 12:07:40,936 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 12:07:51,979 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\controller.py', reloading 
+2023-01-06 12:07:52,414 INFO werkzeug :  * Restarting with stat 
+2023-01-06 12:07:55,681 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 12:07:55,690 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 12:07:55,801 ERROR root : Details Not found: the given data is not present in database 
+2023-01-06 12:07:55,803 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 12:07:55] "[33mGET /user/filter-by-contact?contact=123789256 HTTP/1.1[0m" 404 - 
+2023-01-06 12:24:59,540 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-06 12:24:59,540 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-06 12:24:59,543 INFO werkzeug :  * Restarting with stat 
+2023-01-06 12:25:00,730 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 12:25:00,734 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 12:25:08,227 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 12:25:08] "[32mPOST /brand HTTP/1.1[0m" 308 - 
+2023-01-06 12:25:08,279 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 12:25:08] "[35m[1mPOST /brand/ HTTP/1.1[0m" 201 - 
+2023-01-06 12:25:13,928 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 12:25:13] "[32mGET /brand HTTP/1.1[0m" 308 - 
+2023-01-06 12:25:13,951 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 12:25:13] "GET /brand/ HTTP/1.1" 200 - 
+2023-01-06 12:25:18,977 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 12:25:18] "GET /brand/filter-by-type?brand_type=footwear HTTP/1.1" 200 - 
+2023-01-06 12:25:23,687 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 12:25:23] "[35m[1mGET /brand/filter-by-name?brand_name=bata HTTP/1.1[0m" 500 - 
+2023-01-06 12:27:56,734 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\brands\\controller.py', reloading 
+2023-01-06 12:27:57,059 INFO werkzeug :  * Restarting with stat 
+2023-01-06 12:27:58,763 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 12:27:58,801 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 12:27:59,379 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 12:27:59] "[35m[1mGET /brand/filter-by-name?brand_name=bata HTTP/1.1[0m" 500 - 
+2023-01-06 12:28:47,637 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\brands\\models.py', reloading 
+2023-01-06 12:28:48,099 INFO werkzeug :  * Restarting with stat 
+2023-01-06 12:28:50,573 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 12:28:50,580 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 12:28:50,668 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 12:28:50] "GET /brand/filter-by-name?brand_name=bata HTTP/1.1" 200 - 
+2023-01-06 12:29:09,175 ERROR root : Details Not found: the given data is not present in database 
+2023-01-06 12:29:09,177 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 12:29:09] "[33mGET /brand/filter-by-name?brand_name=trends HTTP/1.1[0m" 404 - 
+2023-01-06 12:31:08,350 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\brands\\controller.py', reloading 
+2023-01-06 12:31:08,499 INFO werkzeug :  * Restarting with stat 
+2023-01-06 12:31:10,862 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 12:31:10,866 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 12:32:51,378 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\__init__.py', reloading 
+2023-01-06 12:32:51,614 INFO werkzeug :  * Restarting with stat 
+2023-01-06 12:32:53,723 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 12:32:53,728 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 12:33:04,819 ERROR root : Validation Error: contact number already exist 
+2023-01-06 12:33:04,820 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 12:33:04] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 12:33:22,121 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 12:33:22] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 201 - 
+2023-01-06 12:34:04,101 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\__init__.py', reloading 
+2023-01-06 12:34:04,489 INFO werkzeug :  * Restarting with stat 
+2023-01-06 12:34:07,402 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 12:34:07,406 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 12:34:25,468 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\utilfile\\utilclass.py', reloading 
+2023-01-06 12:34:25,702 INFO werkzeug :  * Restarting with stat 
+2023-01-06 12:34:27,514 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 12:34:27,520 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 12:34:33,598 ERROR root : Validation Error: enter username with only number and alphabets 
+2023-01-06 12:34:33,599 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 12:34:33] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 12:35:12,098 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\__init__.py', reloading 
+2023-01-06 12:35:12,320 INFO werkzeug :  * Restarting with stat 
+2023-01-06 12:35:14,054 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 12:35:14,060 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 12:35:15,208 ERROR root : Validation Error: enter username with only number and alphabets 
+2023-01-06 12:35:15,229 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 12:35:15] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 - 
+2023-01-06 12:36:07,422 ERROR root : Validation Error: enter username with only number and alphabets 
+2023-01-06 12:36:07,455 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 12:36:07] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 - 
+2023-01-06 12:36:24,188 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\__init__.py', reloading 
+2023-01-06 12:36:24,564 INFO werkzeug :  * Restarting with stat 
+2023-01-06 12:36:27,135 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 12:36:27,140 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 12:36:27,189 ERROR root : Validation Error: enter username with only number and alphabets 
+2023-01-06 12:36:27,190 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 12:36:27] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 12:42:00,171 ERROR root : Validation Error: enter username with only number and alphabets 
+2023-01-06 12:42:00,173 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 12:42:00] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-06 12:53:13,744 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\brands\\models.py', reloading 
+2023-01-06 12:53:14,020 INFO werkzeug :  * Restarting with stat 
+2023-01-06 12:53:16,907 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 12:53:16,914 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 12:58:56,936 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-06 12:58:57,360 INFO werkzeug :  * Restarting with stat 
+2023-01-06 14:39:59,193 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-06 14:39:59,193 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-06 14:39:59,194 INFO werkzeug :  * Restarting with stat 
+2023-01-06 14:40:01,058 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 14:40:01,064 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 14:40:38,051 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 14:40:38] "[32mPOST /brand HTTP/1.1[0m" 308 - 
+2023-01-06 14:40:38,101 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 14:40:38] "[35m[1mPOST /brand/ HTTP/1.1[0m" 201 - 
+2023-01-06 14:40:45,010 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 14:40:45] "[32mPOST /brand HTTP/1.1[0m" 308 - 
+2023-01-06 14:40:45,016 ERROR root : Validation Error: enter brand name with only number and alphabets 
+2023-01-06 14:40:45,018 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 14:40:45] "[31m[1mPOST /brand/ HTTP/1.1[0m" 400 - 
+2023-01-06 14:40:54,388 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 14:40:54] "[32mPOST /brand HTTP/1.1[0m" 308 - 
+2023-01-06 14:40:54,413 ERROR root : Validation Error: enter brand name with only number and alphabets 
+2023-01-06 14:40:54,414 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 14:40:54] "[31m[1mPOST /brand/ HTTP/1.1[0m" 400 - 
+2023-01-06 14:41:02,528 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 14:41:02] "[32mPOST /brand HTTP/1.1[0m" 308 - 
+2023-01-06 14:41:02,534 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 14:41:02] "[31m[1mPOST /brand/ HTTP/1.1[0m" 400 - 
+2023-01-06 14:41:12,489 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 14:41:12] "[32mPOST /brand HTTP/1.1[0m" 308 - 
+2023-01-06 14:41:12,565 ERROR root : Validation Error: brand name is not given 
+2023-01-06 14:41:12,566 INFO werkzeug : 127.0.0.1 - - [06/Jan/2023 14:41:12] "[31m[1mPOST /brand/ HTTP/1.1[0m" 400 - 
+2023-01-06 14:57:05,484 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\__init__.py', reloading 
+2023-01-06 14:57:05,926 INFO werkzeug :  * Restarting with stat 
+2023-01-06 14:57:08,351 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 14:57:08,356 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 15:09:23,795 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\controller.py', reloading 
+2023-01-06 15:09:24,059 INFO werkzeug :  * Restarting with stat 
+2023-01-06 15:09:25,982 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 15:09:25,988 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 15:10:50,482 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\brands\\controller.py', reloading 
+2023-01-06 15:10:50,890 INFO werkzeug :  * Restarting with stat 
+2023-01-06 15:10:52,507 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 15:10:52,512 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 15:13:07,541 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-06 15:13:07,773 INFO werkzeug :  * Restarting with stat 
+2023-01-06 15:13:10,010 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 15:13:10,014 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 15:16:23,875 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-06 15:16:24,093 INFO werkzeug :  * Restarting with stat 
+2023-01-06 15:16:25,822 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 15:16:25,828 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 15:27:41,209 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-06 15:27:41,477 INFO werkzeug :  * Restarting with stat 
+2023-01-06 15:27:43,230 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 15:27:43,234 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-06 15:30:04,338 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-06 15:30:05,234 INFO werkzeug :  * Restarting with stat 
+2023-01-06 15:30:07,350 WARNING werkzeug :  * Debugger is active! 
+2023-01-06 15:30:07,355 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 18:12:53,872 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-08 18:12:53,873 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-08 18:12:53,878 INFO werkzeug :  * Restarting with stat 
+2023-01-08 18:12:55,281 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 18:12:55,297 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 18:13:02,900 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 18:13:02] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-08 18:13:02,983 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 18:13:02] "GET /user/ HTTP/1.1" 200 - 
+2023-01-08 18:13:16,397 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 18:13:16] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 - 
+2023-01-08 18:14:33,592 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-08 18:14:33,592 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-08 18:14:33,596 INFO werkzeug :  * Restarting with stat 
+2023-01-08 18:14:35,572 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 18:14:35,581 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 18:14:40,279 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 18:14:40] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 - 
+2023-01-08 18:24:01,656 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\auth\\auth.py', reloading 
+2023-01-08 18:24:01,900 INFO werkzeug :  * Restarting with stat 
+2023-01-08 18:24:04,328 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 18:24:04,340 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 18:26:51,017 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 18:26:51,220 INFO werkzeug :  * Restarting with stat 
+2023-01-08 19:20:43,380 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-08 19:20:43,381 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-08 19:20:43,385 INFO werkzeug :  * Restarting with stat 
+2023-01-08 19:20:45,584 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 19:20:45,597 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 19:20:55,000 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 19:20:55] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 - 
+2023-01-08 19:31:02,159 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\auth\\auth.py', reloading 
+2023-01-08 19:31:02,366 INFO werkzeug :  * Restarting with stat 
+2023-01-08 19:31:04,661 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 19:31:04,669 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 19:31:37,973 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\auth\\auth.py', reloading 
+2023-01-08 19:31:38,157 INFO werkzeug :  * Restarting with stat 
+2023-01-08 19:31:40,617 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 19:31:40,624 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 19:34:47,654 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 19:34:47,943 INFO werkzeug :  * Restarting with stat 
+2023-01-08 19:34:50,965 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 19:34:50,970 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 19:34:59,688 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 19:34:59] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 - 
+2023-01-08 19:37:29,549 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 19:37:29,850 INFO werkzeug :  * Restarting with stat 
+2023-01-08 19:37:32,860 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 19:37:32,864 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 19:37:37,677 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 19:37:37] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 - 
+2023-01-08 19:46:26,785 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 19:46:26,915 INFO werkzeug :  * Restarting with stat 
+2023-01-08 19:46:29,219 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 19:46:29,225 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 19:46:30,657 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 19:46:30] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 - 
+2023-01-08 19:54:09,065 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-08 19:54:09,066 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-08 19:54:09,068 INFO werkzeug :  * Restarting with stat 
+2023-01-08 19:54:09,979 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 19:54:09,983 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 19:54:15,133 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 19:54:15] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 - 
+2023-01-08 19:54:34,296 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 19:54:34,568 INFO werkzeug :  * Restarting with stat 
+2023-01-08 19:55:03,823 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-08 19:55:03,823 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-08 19:55:03,825 INFO werkzeug :  * Restarting with stat 
+2023-01-08 19:55:04,707 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 19:55:04,712 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 19:55:09,889 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 19:55:09] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 201 - 
+2023-01-08 19:58:44,941 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-08 19:58:44,941 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-08 19:58:44,944 INFO werkzeug :  * Restarting with stat 
+2023-01-08 19:58:46,330 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 19:58:46,333 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 19:58:59,168 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-08 19:58:59,169 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-08 19:58:59,171 INFO werkzeug :  * Restarting with stat 
+2023-01-08 19:59:00,116 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 19:59:00,119 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 19:59:04,186 ERROR root : Validation Error - http://localhost:8080/ - {'user_name': 'hari123', 'contact_number': '1234512345', 'date_of_birth': '04/12/2001', 'gender': 'female', 'password': '1fdsd'}: contact number already exist 
+2023-01-08 19:59:04,188 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 19:59:04] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-08 19:59:21,288 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 19:59:21] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 201 - 
+2023-01-08 19:59:48,578 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 19:59:49,208 INFO werkzeug :  * Restarting with stat 
+2023-01-08 19:59:50,953 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 19:59:50,959 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:00:03,806 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:00:04,096 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:00:05,465 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:00:05,470 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:00:09,162 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:00:09] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-08 20:00:09,212 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:00:09] "[35m[1mGET /user/ HTTP/1.1[0m" 500 - 
+2023-01-08 20:00:34,883 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:00:35,175 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:00:36,743 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:00:36,749 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:00:36,822 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:00:36] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-08 20:00:36,890 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:00:36] "[35m[1mGET /user/ HTTP/1.1[0m" 500 - 
+2023-01-08 20:03:43,285 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:03:43,557 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:03:44,880 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:03:44,884 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:04:29,194 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:04:29,407 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:04:30,595 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:04:30,601 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:04:35,886 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:04:36,127 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:04:38,515 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:04:38,520 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:04:42,852 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:04:43,204 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:04:53,078 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-08 20:04:53,078 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-08 20:04:53,082 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:04:55,038 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:04:55,046 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:04:56,617 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:04:56] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-08 20:04:56,654 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:04:56] "[35m[1mGET /user/ HTTP/1.1[0m" 500 - 
+2023-01-08 20:05:12,604 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-08 20:05:12,606 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-08 20:05:12,616 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:05:14,987 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:05:15,001 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:05:15,569 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:05:15] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-08 20:05:15,610 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:05:15] "[35m[1mGET /user/ HTTP/1.1[0m" 500 - 
+2023-01-08 20:14:34,686 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:14:34,824 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:14:36,341 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:14:36,344 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:15:28,971 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:15:29,289 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:15:31,111 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:15:31,115 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:15:31,164 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:15:31] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-08 20:15:31,268 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:15:31] "[35m[1mGET /user/ HTTP/1.1[0m" 500 - 
+2023-01-08 20:17:43,065 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:17:43,386 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:17:44,970 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:17:44,974 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:17:45,020 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:17:45] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-08 20:17:45,067 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:17:45] "[35m[1mGET /user/ HTTP/1.1[0m" 500 - 
+2023-01-08 20:19:47,547 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:19:47,951 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:19:49,760 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:19:49,765 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:19:53,334 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:19:53] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-08 20:19:53,364 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:19:53] "[35m[1mGET /user/ HTTP/1.1[0m" 500 - 
+2023-01-08 20:20:18,851 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-08 20:20:18,851 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-08 20:20:18,854 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:20:20,578 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:20:20,584 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:20:20,633 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:20:20] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-08 20:20:20,673 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:20:20] "[35m[1mGET /user/ HTTP/1.1[0m" 500 - 
+2023-01-08 20:21:49,503 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:21:49,742 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:21:51,583 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:21:51,586 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:21:51,641 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:21:51] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-08 20:21:51,696 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:21:51] "[35m[1mGET /user/ HTTP/1.1[0m" 500 - 
+2023-01-08 20:22:10,998 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:22:11,209 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:22:13,047 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:22:13,053 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:22:13,110 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:22:13] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-08 20:22:13,161 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:22:13] "[35m[1mGET /user/ HTTP/1.1[0m" 500 - 
+2023-01-08 20:22:26,156 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-08 20:22:26,156 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-08 20:22:26,158 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:22:27,248 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:22:27,251 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:22:29,824 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:22:29] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-08 20:22:29,863 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:22:29] "[35m[1mGET /user/ HTTP/1.1[0m" 500 - 
+2023-01-08 20:23:13,173 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:23:13,271 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:23:15,128 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:23:15,134 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:23:15,249 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:23:15] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-08 20:23:15,284 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:23:15] "GET /user/ HTTP/1.1" 200 - 
+2023-01-08 20:24:26,106 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:24:26,372 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:24:28,003 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:24:28,008 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:25:06,398 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:25:06] "GET /user/filter-by-contact?contact=1234512345 HTTP/1.1" 200 - 
+2023-01-08 20:26:25,972 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:26:25] "[35m[1mPUT /user/update/1234512345 HTTP/1.1[0m" 500 - 
+2023-01-08 20:26:54,093 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:26:54,268 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:26:55,841 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:26:55,848 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:26:55,899 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:26:55] "[35m[1mPUT /user/update/1234512345 HTTP/1.1[0m" 500 - 
+2023-01-08 20:28:59,639 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\controller.py', reloading 
+2023-01-08 20:29:00,000 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:29:01,775 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:29:01,780 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:29:01,835 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:29:01] "[35m[1mPUT /user/update/1234512345 HTTP/1.1[0m" 500 - 
+2023-01-08 20:33:10,963 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\controller.py', reloading 
+2023-01-08 20:33:11,128 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:33:13,341 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:33:13,347 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:33:13,430 ERROR root : Validation Error - http://localhost:8080/ - {'user_name': 'hariharan2', 'contact_number': '1234567890', 'date_of_birth': '04/12/2001', 'gender': 'male', 'password': '1fdsd'}: contact number already exist 
+2023-01-08 20:33:13,431 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:33:13] "[31m[1mPUT /user/update/1234512345 HTTP/1.1[0m" 400 - 
+2023-01-08 20:33:48,830 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\controller.py', reloading 
+2023-01-08 20:33:49,138 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:33:51,116 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:33:51,120 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:33:51,178 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:33:51] "[35m[1mPUT /user/update/1234512345 HTTP/1.1[0m" 500 - 
+2023-01-08 20:35:09,749 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:35:10,295 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:35:11,848 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:35:11,857 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:35:13,548 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:35:13] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-08 20:35:13,613 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:35:13] "[35m[1mGET /user/ HTTP/1.1[0m" 500 - 
+2023-01-08 20:37:40,968 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:37:41,101 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:37:42,267 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:37:42,271 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:37:47,095 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:37:47] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-08 20:37:47,127 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:37:47] "GET /user/ HTTP/1.1" 200 - 
+2023-01-08 20:38:07,141 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:38:07] "[35m[1mPUT /user/update/2 HTTP/1.1[0m" 201 - 
+2023-01-08 20:39:12,079 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:39:12,264 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:39:14,429 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:39:14,434 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:39:26,201 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:39:26] "[35m[1mPUT /user/update/2 HTTP/1.1[0m" 201 - 
+2023-01-08 20:41:19,091 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:41:19,185 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:41:20,313 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:41:20,316 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:41:35,244 ERROR root : Validation Error - http://localhost:8080/ - {'gender': 'male'}: user name is not given 
+2023-01-08 20:41:35,245 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:41:35] "[31m[1mPUT /user/update/2 HTTP/1.1[0m" 400 - 
+2023-01-08 20:42:21,631 ERROR root : Validation Error - http://localhost:8080/ - {'user_name': ' ', 'contact_number': ' ', 'date_of_birth': ' ', 'gender': 'male', 'password': ' '}: enter username with only number and alphabets 
+2023-01-08 20:42:21,632 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:42:21] "[31m[1mPUT /user/update/2 HTTP/1.1[0m" 400 - 
+2023-01-08 20:44:21,002 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\controller.py', reloading 
+2023-01-08 20:44:21,185 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:44:22,881 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:44:22,888 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:44:22,936 ERROR root : Validation Error - http://localhost:8080/ - {'user_name': ' ', 'contact_number': ' ', 'date_of_birth': ' ', 'gender': 'male', 'password': ' '}: enter username with only number and alphabets 
+2023-01-08 20:44:22,936 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:44:22] "[31m[1mPUT /user/update/2 HTTP/1.1[0m" 400 - 
+2023-01-08 20:45:46,997 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\controller.py', reloading 
+2023-01-08 20:45:47,221 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:45:49,185 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:45:49,189 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:45:49,244 ERROR root : Validation Error - http://localhost:8080/ - {'user_name': ' ', 'contact_number': ' ', 'date_of_birth': ' ', 'gender': 'male', 'password': ' '}: enter username with only number and alphabets 
+2023-01-08 20:45:49,245 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:45:49] "[31m[1mPUT /user/update/2 HTTP/1.1[0m" 400 - 
+2023-01-08 20:47:09,665 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\controller.py', reloading 
+2023-01-08 20:47:09,929 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:47:11,511 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:47:11,517 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:47:11,597 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:47:11] "[35m[1mPUT /user/update/2 HTTP/1.1[0m" 201 - 
+2023-01-08 20:47:41,770 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:47:41] "[35m[1mPUT /user/update/2 HTTP/1.1[0m" 201 - 
+2023-01-08 20:48:11,949 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:48:11] "[35m[1mPUT /user/update/2 HTTP/1.1[0m" 201 - 
+2023-01-08 20:50:46,980 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:50:47,238 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:51:14,771 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-08 20:51:14,771 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-08 20:51:14,773 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:51:16,020 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:51:16,028 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:51:18,121 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:51:18] "[35m[1mPUT /user/update/2 HTTP/1.1[0m" 500 - 
+2023-01-08 20:53:11,682 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:53:11] "[35m[1mPUT /user/update/2 HTTP/1.1[0m" 201 - 
+2023-01-08 20:54:46,456 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-08 20:54:46,779 INFO werkzeug :  * Restarting with stat 
+2023-01-08 20:54:49,132 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 20:54:49,136 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 20:54:50,574 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:54:50] "[35m[1mPUT /user/update/2 HTTP/1.1[0m" 201 - 
+2023-01-08 20:55:20,897 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:55:20] "[31m[1mPUT /user/update/2 HTTP/1.1[0m" 400 - 
+2023-01-08 20:55:46,064 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:55:46] "[35m[1mPUT /user/update/2 HTTP/1.1[0m" 201 - 
+2023-01-08 20:57:09,275 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:57:09] "[35m[1mPUT /user/update/2 HTTP/1.1[0m" 500 - 
+2023-01-08 20:57:23,884 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 20:57:23] "[35m[1mPUT /user/update/2 HTTP/1.1[0m" 201 - 
+2023-01-08 21:00:04,045 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:00:04] "[35m[1mPUT /user/update/2 HTTP/1.1[0m" 201 - 
+2023-01-08 21:00:39,493 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:00:39] "[35m[1mPUT /user/update/2 HTTP/1.1[0m" 201 - 
+2023-01-08 21:02:09,176 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-08 21:02:09,176 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-08 21:02:09,178 INFO werkzeug :  * Restarting with stat 
+2023-01-08 21:02:10,670 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 21:02:10,675 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 21:02:11,315 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:02:11] "[32mPOST /brand HTTP/1.1[0m" 308 - 
+2023-01-08 21:02:11,345 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:02:11] "[35m[1mPOST /brand/ HTTP/1.1[0m" 201 - 
+2023-01-08 21:02:21,413 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:02:21] "[32mPOST /brand HTTP/1.1[0m" 308 - 
+2023-01-08 21:02:21,425 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:02:21] "[35m[1mPOST /brand/ HTTP/1.1[0m" 201 - 
+2023-01-08 21:02:28,245 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:02:28] "[32mGET /brand HTTP/1.1[0m" 308 - 
+2023-01-08 21:02:28,265 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:02:28] "GET /brand/ HTTP/1.1" 200 - 
+2023-01-08 21:02:33,397 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:02:33] "GET /brand/filter-by-type?brand_type=footwear HTTP/1.1" 200 - 
+2023-01-08 21:02:53,704 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:02:53] "PUT /brand/1 HTTP/1.1" 200 - 
+2023-01-08 21:02:57,780 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:02:57] "[32mGET /brand HTTP/1.1[0m" 308 - 
+2023-01-08 21:02:57,822 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:02:57] "GET /brand/ HTTP/1.1" 200 - 
+2023-01-08 21:03:16,920 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:03:16] "GET /brand/filter-by-type?brand_type=cosmetics HTTP/1.1" 200 - 
+2023-01-08 21:03:21,464 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:03:21] "GET /brand/filter-by-name?brand_name=trends HTTP/1.1" 200 - 
+2023-01-08 21:32:57,690 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-08 21:32:57,691 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-08 21:32:57,693 INFO werkzeug :  * Restarting with stat 
+2023-01-08 21:32:58,997 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 21:32:59,001 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 21:33:01,647 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:33:01] "[32mPOST /coupon HTTP/1.1[0m" 308 - 
+2023-01-08 21:33:01,689 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:33:01] "[35m[1mPOST /coupon/ HTTP/1.1[0m" 500 - 
+2023-01-08 21:34:23,710 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\controller.py', reloading 
+2023-01-08 21:34:23,867 INFO werkzeug :  * Restarting with stat 
+2023-01-08 21:34:25,608 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 21:34:25,615 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 21:34:26,354 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:34:26] "[32mPOST /coupon HTTP/1.1[0m" 308 - 
+2023-01-08 21:34:26,402 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:34:26] "[35m[1mPOST /coupon/ HTTP/1.1[0m" 500 - 
+2023-01-08 21:34:51,277 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:34:51] "[32mPOST /coupon HTTP/1.1[0m" 308 - 
+2023-01-08 21:34:51,441 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:34:51] "[35m[1mPOST /coupon/ HTTP/1.1[0m" 500 - 
+2023-01-08 21:37:49,420 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 21:37:49,946 INFO werkzeug :  * Restarting with stat 
+2023-01-08 21:37:51,841 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 21:37:51,846 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 21:39:04,448 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:39:04] "[32mPOST /coupon HTTP/1.1[0m" 308 - 
+2023-01-08 21:39:04,633 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:39:04] "[35m[1mPOST /coupon/ HTTP/1.1[0m" 500 - 
+2023-01-08 21:40:53,273 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 21:40:54,098 INFO werkzeug :  * Restarting with stat 
+2023-01-08 21:40:56,328 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 21:40:56,336 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 21:40:57,663 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:40:57] "[32mPOST /coupon HTTP/1.1[0m" 308 - 
+2023-01-08 21:40:57,715 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:40:57] "[35m[1mPOST /coupon/ HTTP/1.1[0m" 201 - 
+2023-01-08 21:41:30,324 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:41:30] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-08 21:41:30,342 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:41:30] "GET /user/ HTTP/1.1" 200 - 
+2023-01-08 21:41:48,126 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:41:48] "[32mGET /coupon HTTP/1.1[0m" 308 - 
+2023-01-08 21:41:48,178 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:41:48] "[35m[1mGET /coupon/ HTTP/1.1[0m" 500 - 
+2023-01-08 21:42:35,271 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 21:42:35,479 INFO werkzeug :  * Restarting with stat 
+2023-01-08 21:42:37,032 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 21:42:37,036 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 21:42:39,680 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:42:39] "[32mGET /coupon HTTP/1.1[0m" 308 - 
+2023-01-08 21:42:39,720 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:42:39] "GET /coupon/ HTTP/1.1" 200 - 
+2023-01-08 21:44:08,171 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 21:44:08,373 INFO werkzeug :  * Restarting with stat 
+2023-01-08 21:44:11,896 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 21:44:11,902 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 21:44:11,980 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:44:11] "[32mGET /coupon HTTP/1.1[0m" 308 - 
+2023-01-08 21:44:12,027 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:44:12] "GET /coupon/ HTTP/1.1" 200 - 
+2023-01-08 21:47:00,898 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:47:00] "[35m[1mGET /coupon/filter-coupon-by-brand/trends HTTP/1.1[0m" 500 - 
+2023-01-08 21:55:43,483 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 21:55:43,784 INFO werkzeug :  * Restarting with stat 
+2023-01-08 21:55:45,999 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 21:55:46,006 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 21:55:46,104 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:55:46] "[35m[1mGET /coupon/filter-coupon-by-brand/trends HTTP/1.1[0m" 500 - 
+2023-01-08 21:58:20,099 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 21:58:20,274 INFO werkzeug :  * Restarting with stat 
+2023-01-08 21:58:22,205 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 21:58:22,209 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 21:58:22,258 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:58:22] "[32mGET /coupon HTTP/1.1[0m" 308 - 
+2023-01-08 21:58:22,311 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:58:22] "GET /coupon/ HTTP/1.1" 200 - 
+2023-01-08 21:58:28,711 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:58:28] "[35m[1mGET /coupon/filter-coupon-by-brand/trends HTTP/1.1[0m" 500 - 
+2023-01-08 21:59:13,742 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\brands\\controller.py', reloading 
+2023-01-08 21:59:13,996 INFO werkzeug :  * Restarting with stat 
+2023-01-08 21:59:16,272 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 21:59:16,279 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 21:59:16,411 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 21:59:16] "[35m[1mGET /coupon/filter-coupon-by-brand/trends HTTP/1.1[0m" 500 - 
+2023-01-08 22:00:26,832 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\brands\\controller.py', reloading 
+2023-01-08 22:00:27,040 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:00:30,340 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:00:30,348 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:04:42,058 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:04:42,216 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:04:45,255 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:04:45,263 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:05:25,289 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:05:25,623 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:05:27,386 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:05:27,392 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:05:28,460 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:05:28] "[35m[1mGET /coupon/filter-coupon-by-brand/trends HTTP/1.1[0m" 500 - 
+2023-01-08 22:08:34,256 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:08:34,468 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:08:36,431 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:08:36,437 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:08:37,406 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:08:37] "[35m[1mGET /coupon/filter-coupon-by-brand/trends HTTP/1.1[0m" 500 - 
+2023-01-08 22:10:08,405 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:10:08,602 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:10:11,019 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:10:11,026 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:10:11,178 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:10:11] "[35m[1mGET /coupon/filter-coupon-by-brand/trends HTTP/1.1[0m" 500 - 
+2023-01-08 22:10:32,089 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:10:32,364 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:10:35,103 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:10:35,109 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:10:35,235 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:10:35] "[35m[1mGET /coupon/filter-coupon-by-brand/trends HTTP/1.1[0m" 500 - 
+2023-01-08 22:11:44,377 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:11:44,614 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:11:46,728 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:11:46,735 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:11:46,855 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:11:46] "[35m[1mGET /coupon/filter-coupon-by-brand/trends HTTP/1.1[0m" 500 - 
+2023-01-08 22:12:26,699 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:12:27,058 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:12:29,327 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:12:29,334 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:12:29,438 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:12:29] "GET /coupon/filter-coupon-by-brand/trends HTTP/1.1" 200 - 
+2023-01-08 22:13:46,990 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:13:47,267 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:13:49,041 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:13:49,047 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:13:49,188 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:13:49] "GET /coupon/filter-coupon-by-brand/trends HTTP/1.1" 200 - 
+2023-01-08 22:14:55,250 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:14:55,386 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:14:57,746 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:14:57,752 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:16:32,880 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\controller.py', reloading 
+2023-01-08 22:16:33,199 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:16:35,446 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:16:35,453 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:16:38,093 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:16:38] "[35m[1mGET /coupon/filter-coupon-by-brand/max HTTP/1.1[0m" 500 - 
+2023-01-08 22:17:40,191 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:17:40] "[35m[1mGET /user/filter-by-contact?contact=1234509876 HTTP/1.1[0m" 500 - 
+2023-01-08 22:18:13,181 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:18:13] "GET /user/filter-by-contact?contact=1234512345 HTTP/1.1" 200 - 
+2023-01-08 22:18:30,888 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:18:30] "GET /brand/filter-by-type?brand_type=footwear HTTP/1.1" 200 - 
+2023-01-08 22:18:57,119 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:18:57] "[35m[1mGET /brand/filter-by-name?brand_name=max HTTP/1.1[0m" 500 - 
+2023-01-08 22:23:11,398 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\brands\\controller.py', reloading 
+2023-01-08 22:23:11,859 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:23:13,712 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:23:13,719 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:23:15,331 ERROR root : Details Not found - http://localhost:8080/: the given data is not present in database 
+2023-01-08 22:23:15,333 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:23:15] "[33mGET /brand/filter-by-name?brand_name=max HTTP/1.1[0m" 404 - 
+2023-01-08 22:23:55,499 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\brands\\controller.py', reloading 
+2023-01-08 22:23:55,681 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:23:57,321 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:23:57,328 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:23:58,470 ERROR root : Details Not found - http://localhost:8080/ - b'': the given data is not present in database 
+2023-01-08 22:23:58,471 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:23:58] "[33mGET /brand/filter-by-name?brand_name=max HTTP/1.1[0m" 404 - 
+2023-01-08 22:25:14,607 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\brands\\controller.py', reloading 
+2023-01-08 22:25:14,732 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:30:00,928 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-08 22:30:00,929 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-08 22:30:00,932 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:30:02,787 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:30:02,791 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:30:02,855 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:30:02] "GET /brand/filter-by-name?brand_name=trends HTTP/1.1" 200 - 
+2023-01-08 22:30:16,105 ERROR root : Details Not found - http://localhost:8080/ - b'': the given data is not present in database 
+2023-01-08 22:30:16,106 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:30:16] "[33mGET /coupon/filter-coupon-by-brand/max HTTP/1.1[0m" 404 - 
+2023-01-08 22:30:24,495 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:30:24] "GET /coupon/filter-coupon-by-brand/trends HTTP/1.1" 200 - 
+2023-01-08 22:31:08,817 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\controller.py', reloading 
+2023-01-08 22:31:09,108 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:31:11,887 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:31:11,892 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:32:45,883 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:32:46,179 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:32:47,690 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:32:47,695 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:33:33,041 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:33:33,349 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:33:35,198 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:33:35,202 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:33:58,343 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:33:58] "[35m[1mGET /coupon/filter-coupon-by-user/hari HTTP/1.1[0m" 500 - 
+2023-01-08 22:34:19,841 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:34:20,162 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:34:22,514 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:34:22,521 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:34:22,650 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:34:22] "[35m[1mGET /coupon/filter-coupon-by-user/hari HTTP/1.1[0m" 500 - 
+2023-01-08 22:35:22,002 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:35:22,226 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:35:24,913 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:35:24,920 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:35:27,412 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:35:27] "[35m[1mGET /coupon/filter-coupon-by-user/hari HTTP/1.1[0m" 500 - 
+2023-01-08 22:36:54,951 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:36:55,103 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:36:57,239 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:36:57,245 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:36:59,573 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:36:59] "[35m[1mGET /coupon/filter-coupon-by-user/hari HTTP/1.1[0m" 500 - 
+2023-01-08 22:37:23,153 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:37:23,343 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:37:25,465 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:37:25,473 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:37:25,920 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:37:25] "[35m[1mGET /coupon/filter-coupon-by-user/hari HTTP/1.1[0m" 500 - 
+2023-01-08 22:37:44,953 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:37:45,135 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:37:47,012 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:37:47,019 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:37:48,140 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:37:48] "[35m[1mGET /coupon/filter-coupon-by-user/hari HTTP/1.1[0m" 500 - 
+2023-01-08 22:38:29,376 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:38:29,621 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:38:31,411 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:38:31,418 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:38:31,784 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:38:31] "[32mGET /coupon HTTP/1.1[0m" 308 - 
+2023-01-08 22:38:31,836 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:38:31] "GET /coupon/ HTTP/1.1" 200 - 
+2023-01-08 22:39:18,991 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:39:19,318 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:39:21,108 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:39:21,121 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:39:21,282 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:39:21] "[32mGET /coupon HTTP/1.1[0m" 308 - 
+2023-01-08 22:39:21,326 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:39:21] "GET /coupon/ HTTP/1.1" 200 - 
+2023-01-08 22:39:26,373 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:39:26] "[35m[1mGET /coupon/filter-coupon-by-user/hari HTTP/1.1[0m" 500 - 
+2023-01-08 22:39:41,857 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:39:42,062 INFO werkzeug :  * Restarting with stat 
+2023-01-08 22:39:43,897 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 22:39:43,903 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 22:39:44,552 ERROR root : Details Not found - http://localhost:8080/ - b'': the given data is not present in database 
+2023-01-08 22:39:44,553 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:39:44] "[33mGET /coupon/filter-coupon-by-user/hari HTTP/1.1[0m" 404 - 
+2023-01-08 22:40:04,681 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 22:40:04] "GET /coupon/filter-coupon-by-user/hari123 HTTP/1.1" 200 - 
+2023-01-08 22:43:43,385 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 22:43:43,553 INFO werkzeug :  * Restarting with stat 
+2023-01-08 23:14:34,930 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-08 23:14:34,930 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-08 23:14:34,933 INFO werkzeug :  * Restarting with stat 
+2023-01-08 23:14:36,433 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 23:14:36,437 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 23:16:06,362 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 23:16:06,653 INFO werkzeug :  * Restarting with stat 
+2023-01-08 23:16:08,548 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 23:16:08,552 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 23:16:32,523 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 23:16:32] "[33mPATCH /coupon/uy-coupon/1/2 HTTP/1.1[0m" 404 - 
+2023-01-08 23:16:45,034 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 23:16:45] "[35m[1mPATCH /coupon/buy-coupon/1/2 HTTP/1.1[0m" 500 - 
+2023-01-08 23:17:13,825 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 23:17:14,155 INFO werkzeug :  * Restarting with stat 
+2023-01-08 23:17:15,867 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 23:17:15,872 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 23:17:16,012 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 23:17:16] "[35m[1mPATCH /coupon/buy-coupon/1/2 HTTP/1.1[0m" 500 - 
+2023-01-08 23:18:31,110 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\controller.py', reloading 
+2023-01-08 23:18:31,449 INFO werkzeug :  * Restarting with stat 
+2023-01-08 23:18:33,567 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 23:18:33,574 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 23:18:33,774 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 23:18:33] "[35m[1mPATCH /coupon/buy-coupon/1/2 HTTP/1.1[0m" 500 - 
+2023-01-08 23:18:51,828 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\controller.py', reloading 
+2023-01-08 23:18:52,107 INFO werkzeug :  * Restarting with stat 
+2023-01-08 23:18:54,285 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 23:18:54,290 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 23:18:54,507 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 23:18:54] "PATCH /coupon/buy-coupon/1/2 HTTP/1.1" 200 - 
+2023-01-08 23:21:39,860 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 23:21:40,385 INFO werkzeug :  * Restarting with stat 
+2023-01-08 23:21:42,588 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 23:21:42,596 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 23:21:42,806 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 23:21:42] "PATCH /coupon/buy-coupon/1/2 HTTP/1.1" 200 - 
+2023-01-08 23:22:47,216 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\controller.py', reloading 
+2023-01-08 23:22:47,529 INFO werkzeug :  * Restarting with stat 
+2023-01-08 23:22:49,425 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 23:22:49,431 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 23:22:51,778 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 23:22:51] "PUT /coupon/buy-coupon/1/2 HTTP/1.1" 200 - 
+2023-01-08 23:23:56,603 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 23:23:56,962 INFO werkzeug :  * Restarting with stat 
+2023-01-08 23:23:58,990 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 23:23:58,995 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 23:23:59,078 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 23:23:59] "PUT /coupon/buy-coupon/1/2 HTTP/1.1" 200 - 
+2023-01-08 23:25:25,776 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 23:25:26,013 INFO werkzeug :  * Restarting with stat 
+2023-01-08 23:25:28,617 WARNING werkzeug :  * Debugger is active! 
+2023-01-08 23:25:28,625 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-08 23:25:28,877 INFO werkzeug : 127.0.0.1 - - [08/Jan/2023 23:25:28] "PUT /coupon/buy-coupon/1/2 HTTP/1.1" 200 - 
+2023-01-08 23:50:17,698 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-08 23:50:18,003 INFO werkzeug :  * Restarting with stat 
+2023-01-09 00:20:27,840 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-09 00:20:27,840 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-09 00:20:27,843 INFO werkzeug :  * Restarting with stat 
+2023-01-09 00:20:29,401 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 00:20:29,422 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 00:20:31,455 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 00:20:31] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-09 00:20:31,795 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 00:20:31] "[35m[1mGET /user/ HTTP/1.1[0m" 500 - 
+2023-01-09 00:22:37,948 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-09 00:22:38,117 INFO werkzeug :  * Restarting with stat 
+2023-01-09 00:22:39,654 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 00:22:39,658 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 00:22:39,697 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 00:22:39] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-09 00:22:39,732 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 00:22:39] "GET /user/ HTTP/1.1" 200 - 
+2023-01-09 00:28:13,649 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\transactions\\models.py', reloading 
+2023-01-09 00:28:13,937 INFO werkzeug :  * Restarting with stat 
+2023-01-09 00:28:15,581 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 00:28:15,587 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 00:28:15,718 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 00:28:15] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-09 00:28:15,763 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 00:28:15] "GET /user/ HTTP/1.1" 200 - 
+2023-01-09 00:29:05,801 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-09 00:29:06,113 INFO werkzeug :  * Restarting with stat 
+2023-01-09 00:29:07,909 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 00:29:07,916 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 00:29:07,967 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 00:29:07] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-09 00:29:08,005 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 00:29:08] "GET /user/ HTTP/1.1" 200 - 
+2023-01-09 00:37:48,001 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-09 00:37:48,247 INFO werkzeug :  * Restarting with stat 
+2023-01-09 00:39:28,975 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-09 00:39:28,975 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-09 00:39:28,978 INFO werkzeug :  * Restarting with stat 
+2023-01-09 00:39:30,169 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 00:39:30,175 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 00:39:32,257 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 00:39:32] "[32mGET /coupon HTTP/1.1[0m" 308 - 
+2023-01-09 00:39:32,343 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 00:39:32] "[35m[1mGET /coupon/ HTTP/1.1[0m" 500 - 
+2023-01-09 00:39:49,103 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-09 00:39:49,304 INFO werkzeug :  * Restarting with stat 
+2023-01-09 00:39:52,016 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 00:39:52,020 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 00:39:52,085 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 00:39:52] "[32mGET /coupon HTTP/1.1[0m" 308 - 
+2023-01-09 00:39:52,148 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 00:39:52] "GET /coupon/ HTTP/1.1" 200 - 
+2023-01-09 00:41:02,074 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-09 00:41:02,244 INFO werkzeug :  * Restarting with stat 
+2023-01-09 00:41:04,598 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 00:41:04,604 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 00:48:31,727 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\transactions\\models.py', reloading 
+2023-01-09 00:48:32,008 INFO werkzeug :  * Restarting with stat 
+2023-01-09 00:48:33,932 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 00:48:33,938 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 00:58:42,704 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-09 00:58:42,704 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-09 00:58:42,707 INFO werkzeug :  * Restarting with stat 
+2023-01-09 00:58:43,773 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 00:58:43,777 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 00:59:00,731 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 00:59:00] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 - 
+2023-01-09 01:00:40,142 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-09 01:00:40,269 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:04:47,755 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-09 01:04:47,755 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-09 01:04:47,757 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:04:48,966 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 01:04:48,971 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 01:05:12,852 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-09 01:05:12,852 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-09 01:05:12,856 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:05:14,211 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 01:05:14,215 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 01:06:01,800 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-09 01:06:01,800 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-09 01:06:01,803 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:06:02,965 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 01:06:02,969 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 01:10:05,869 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-09 01:10:06,000 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:12:01,927 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-09 01:12:01,927 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-09 01:12:01,929 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:12:02,829 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 01:12:02,832 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 01:12:11,059 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:12:11] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 - 
+2023-01-09 01:12:34,385 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-09 01:12:34,592 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:12:36,381 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 01:12:36,387 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 01:12:39,185 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:12:39] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 201 - 
+2023-01-09 01:14:09,916 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:14:09] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 409 - 
+2023-01-09 01:15:13,763 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:15:13] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 409 - 
+2023-01-09 01:15:22,133 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:15:22] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 201 - 
+2023-01-09 01:15:49,186 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:15:49] "[32mPOST /brand HTTP/1.1[0m" 308 - 
+2023-01-09 01:15:49,205 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:15:49] "[35m[1mPOST /brand/ HTTP/1.1[0m" 201 - 
+2023-01-09 01:15:58,694 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:15:58] "[32mPOST /brand HTTP/1.1[0m" 308 - 
+2023-01-09 01:15:58,714 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:15:58] "[35m[1mPOST /brand/ HTTP/1.1[0m" 201 - 
+2023-01-09 01:16:13,619 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:16:13] "[32mPOST /brand HTTP/1.1[0m" 308 - 
+2023-01-09 01:16:13,645 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:16:13] "[35m[1mPOST /brand/ HTTP/1.1[0m" 201 - 
+2023-01-09 01:16:19,757 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:16:19] "GET /brand/filter-by-type?brand_type=cosmetics HTTP/1.1" 200 - 
+2023-01-09 01:16:23,468 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:16:23] "GET /brand/filter-by-name?brand_name=trends HTTP/1.1" 200 - 
+2023-01-09 01:16:32,957 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:16:32] "[32mGET /brand HTTP/1.1[0m" 308 - 
+2023-01-09 01:16:32,969 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:16:32] "GET /brand/ HTTP/1.1" 200 - 
+2023-01-09 01:16:40,019 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:16:40] "[35m[1mGET /user/filter-by-contact?contact=1234567890 HTTP/1.1[0m" 500 - 
+2023-01-09 01:17:17,262 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:17:17] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-09 01:17:17,298 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:17:17] "[35m[1mGET /user/ HTTP/1.1[0m" 500 - 
+2023-01-09 01:18:02,168 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-09 01:18:02,462 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:18:04,533 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 01:18:04,543 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 01:18:04,935 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:18:04] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-09 01:18:05,025 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:18:05] "[35m[1mGET /user/ HTTP/1.1[0m" 500 - 
+2023-01-09 01:18:19,552 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-09 01:18:19,976 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:18:22,412 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 01:18:22,416 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 01:18:22,463 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:18:22] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-09 01:18:22,492 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:18:22] "GET /user/ HTTP/1.1" 200 - 
+2023-01-09 01:18:56,438 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-09 01:18:56,611 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:18:58,589 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 01:18:58,595 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 01:18:58,668 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:18:58] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-09 01:18:58,707 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:18:58] "GET /user/ HTTP/1.1" 200 - 
+2023-01-09 01:19:20,116 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-09 01:19:20,523 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:19:22,227 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 01:19:22,233 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 01:19:22,395 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:19:22] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-09 01:19:22,453 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:19:22] "GET /user/ HTTP/1.1" 200 - 
+2023-01-09 01:20:04,026 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\models.py', reloading 
+2023-01-09 01:20:04,151 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:20:06,043 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 01:20:06,051 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 01:20:06,174 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:20:06] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-09 01:20:06,244 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:20:06] "GET /user/ HTTP/1.1" 200 - 
+2023-01-09 01:20:50,654 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:20:50] "GET /user/filter-by-contact?contact=1234567890 HTTP/1.1" 200 - 
+2023-01-09 01:21:11,465 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:21:11] "[35m[1mPUT /user/update/1 HTTP/1.1[0m" 500 - 
+2023-01-09 01:21:39,151 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\controller.py', reloading 
+2023-01-09 01:21:39,439 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:21:41,638 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 01:21:41,642 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 01:21:41,734 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:21:41] "[35m[1mPUT /user/update/1 HTTP/1.1[0m" 201 - 
+2023-01-09 01:23:08,320 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:23:08] "[32mPOST /coupon HTTP/1.1[0m" 308 - 
+2023-01-09 01:23:08,347 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:23:08] "[35m[1mPOST /coupon/ HTTP/1.1[0m" 201 - 
+2023-01-09 01:25:18,603 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:25:18] "[32mPOST /coupon HTTP/1.1[0m" 308 - 
+2023-01-09 01:25:18,625 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:25:18] "[35m[1mPOST /coupon/ HTTP/1.1[0m" 201 - 
+2023-01-09 01:25:23,545 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:25:23] "[32mGET /coupon HTTP/1.1[0m" 308 - 
+2023-01-09 01:25:23,567 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:25:23] "GET /coupon/ HTTP/1.1" 200 - 
+2023-01-09 01:25:44,011 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:25:44] "GET /coupon/filter-coupon-by-brand/trends HTTP/1.1" 200 - 
+2023-01-09 01:25:56,819 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:25:56] "GET /coupon/filter-coupon-by-user/hari HTTP/1.1" 200 - 
+2023-01-09 01:26:15,955 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:26:15] "[35m[1mPUT /coupon/buy-coupon/1/2 HTTP/1.1[0m" 500 - 
+2023-01-09 01:27:33,372 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\controller.py', reloading 
+2023-01-09 01:27:33,689 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:27:36,115 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 01:27:36,122 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 01:27:36,213 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:27:36] "[35m[1mPUT /coupon/buy-coupon/1/2 HTTP/1.1[0m" 500 - 
+2023-01-09 01:29:10,403 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\controller.py', reloading 
+2023-01-09 01:29:10,602 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:29:13,077 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 01:29:13,085 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 01:29:13,202 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:29:13] "PUT /coupon/buy-coupon/1/2 HTTP/1.1" 200 - 
+2023-01-09 01:33:57,225 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\transactions\\models.py', reloading 
+2023-01-09 01:33:57,529 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:34:00,746 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 01:34:00,753 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 01:34:59,475 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:34:59] "[32mGET /transaction HTTP/1.1[0m" 308 - 
+2023-01-09 01:34:59,520 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:34:59] "GET /transaction/ HTTP/1.1" 200 - 
+2023-01-09 01:36:16,322 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\__init__.py', reloading 
+2023-01-09 01:36:16,549 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:36:18,341 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 01:36:18,346 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 01:36:18,675 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:36:18] "[32mGET /transaction HTTP/1.1[0m" 308 - 
+2023-01-09 01:36:18,859 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:36:18] "[35m[1mGET /transaction/ HTTP/1.1[0m" 500 - 
+2023-01-09 01:36:41,007 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\transactions\\models.py', reloading 
+2023-01-09 01:36:41,301 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:36:42,513 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 01:36:42,518 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 01:36:43,315 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:36:43] "[32mGET /transaction HTTP/1.1[0m" 308 - 
+2023-01-09 01:36:43,362 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:36:43] "GET /transaction/ HTTP/1.1" 200 - 
+2023-01-09 01:37:14,315 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\transactions\\models.py', reloading 
+2023-01-09 01:37:14,529 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:37:18,020 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 01:37:18,027 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 01:37:27,580 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\transactions\\models.py', reloading 
+2023-01-09 01:37:27,890 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:37:55,621 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-09 01:37:55,621 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-09 01:37:55,624 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:37:57,031 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 01:37:57,038 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 01:37:59,308 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:37:59] "[32mGET /transaction HTTP/1.1[0m" 308 - 
+2023-01-09 01:37:59,376 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 01:37:59] "GET /transaction/ HTTP/1.1" 200 - 
+2023-01-09 01:40:07,538 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-09 01:40:07,766 INFO werkzeug :  * Restarting with stat 
+2023-01-09 01:40:09,938 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 01:40:09,942 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 10:53:08,263 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-09 10:53:08,263 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-09 10:53:08,269 INFO werkzeug :  * Restarting with stat 
+2023-01-09 10:53:12,661 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 10:53:12,670 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 10:53:19,642 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 10:53:19] "[32mGET /coupon HTTP/1.1[0m" 308 - 
+2023-01-09 10:53:19,721 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 10:53:19] "GET /coupon/ HTTP/1.1" 200 - 
+2023-01-09 11:50:04,237 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-09 11:50:04,237 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-09 11:50:04,241 INFO werkzeug :  * Restarting with stat 
+2023-01-09 11:50:05,707 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 11:50:05,750 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 11:50:08,894 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 11:50:08] "[32mPOST /brand HTTP/1.1[0m" 308 - 
+2023-01-09 11:50:09,003 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 11:50:09] "[35m[1mPOST /brand/ HTTP/1.1[0m" 201 - 
+2023-01-09 11:50:15,109 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 11:50:15] "GET /brand/filter-by-name?brand_name=trends HTTP/1.1" 200 - 
+2023-01-09 11:51:31,525 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 11:51:31] "GET /brand/filter-by-type?brand_type=cosmetics HTTP/1.1" 200 - 
+2023-01-09 11:52:25,443 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 11:52:25] "GET /coupon/filter-coupon-by-brand/trends HTTP/1.1" 200 - 
+2023-01-09 11:56:08,801 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\controller.py', reloading 
+2023-01-09 11:56:09,149 INFO werkzeug :  * Restarting with stat 
+2023-01-09 11:56:55,712 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-09 11:56:55,713 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-09 11:56:55,716 INFO werkzeug :  * Restarting with stat 
+2023-01-09 11:56:57,346 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 11:56:57,354 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 11:56:57,695 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 11:56:57] "GET /coupon/filter-coupon-by-type/cosmetics HTTP/1.1" 200 - 
+2023-01-09 11:58:19,255 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 11:58:19] "[32mPOST /coupon HTTP/1.1[0m" 308 - 
+2023-01-09 11:58:19,325 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 11:58:19] "[35m[1mPOST /coupon/ HTTP/1.1[0m" 201 - 
+2023-01-09 11:58:24,704 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 11:58:24] "GET /coupon/filter-coupon-by-type/cosmetics HTTP/1.1" 200 - 
+2023-01-09 11:58:42,584 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 11:58:42] "[32mGET /coupon HTTP/1.1[0m" 308 - 
+2023-01-09 11:58:42,603 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 11:58:42] "GET /coupon/ HTTP/1.1" 200 - 
+2023-01-09 11:59:28,398 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 11:59:28] "GET /coupon/filter-coupon-by-type/cosmetics HTTP/1.1" 200 - 
+2023-01-09 12:01:26,616 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-09 12:01:26,941 INFO werkzeug :  * Restarting with stat 
+2023-01-09 12:01:30,187 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 12:01:30,196 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 12:01:30,308 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 12:01:30] "GET /coupon/filter-coupon-by-type/cosmetics HTTP/1.1" 200 - 
+2023-01-09 12:02:43,080 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-09 12:02:43,482 INFO werkzeug :  * Restarting with stat 
+2023-01-09 12:02:45,596 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 12:02:45,603 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 12:02:45,698 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 12:02:45] "GET /coupon/filter-coupon-by-type/cosmetics HTTP/1.1" 200 - 
+2023-01-09 12:03:03,469 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-09 12:03:04,038 INFO werkzeug :  * Restarting with stat 
+2023-01-09 12:03:06,464 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 12:03:06,468 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 12:03:06,559 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 12:03:06] "[35m[1mGET /coupon/filter-coupon-by-type/cosmetics HTTP/1.1[0m" 500 - 
+2023-01-09 12:03:48,727 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-09 12:03:49,049 INFO werkzeug :  * Restarting with stat 
+2023-01-09 12:03:50,836 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 12:03:50,841 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 12:03:50,943 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 12:03:50] "[35m[1mGET /coupon/filter-coupon-by-type/cosmetics HTTP/1.1[0m" 500 - 
+2023-01-09 12:03:56,701 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-09 12:03:56,962 INFO werkzeug :  * Restarting with stat 
+2023-01-09 12:04:00,049 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 12:04:00,055 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 12:04:00,176 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 12:04:00] "GET /coupon/filter-coupon-by-type/cosmetics HTTP/1.1" 200 - 
+2023-01-09 12:04:24,010 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\coupons\\models.py', reloading 
+2023-01-09 12:04:24,250 INFO werkzeug :  * Restarting with stat 
+2023-01-09 12:04:26,584 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 12:04:26,593 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 12:04:26,692 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 12:04:26] "GET /coupon/filter-coupon-by-type/cosmetics HTTP/1.1" 200 - 
+2023-01-09 12:07:51,192 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\transactions\\controller.py', reloading 
+2023-01-09 12:07:51,423 INFO werkzeug :  * Restarting with stat 
+2023-01-09 12:07:53,347 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 12:07:53,354 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 12:08:33,538 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 12:08:33] "GET /transaction/coupon/1 HTTP/1.1" 200 - 
+2023-01-09 12:30:45,766 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-09 12:30:45,767 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-09 12:30:45,770 INFO werkzeug :  * Restarting with stat 
+2023-01-09 12:30:47,724 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 12:30:47,732 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 12:30:49,100 ERROR root : Validation Error - http://localhost:8080/ - {'user_name': 'harini', 'contact_number': '1234512345', 'date_of_birth': '06/12/2001', 'gender': 'female', 'password': '1234as'}: contact number already exist 
+2023-01-09 12:30:49,102 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 12:30:49] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-09 12:30:50,210 ERROR root : Validation Error - http://localhost:8080/ - {'user_name': 'harini', 'contact_number': '1234512345', 'date_of_birth': '06/12/2001', 'gender': 'female', 'password': '1234as'}: contact number already exist 
+2023-01-09 12:30:50,211 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 12:30:50] "[31m[1mPOST /auth/sign-up HTTP/1.1[0m" 400 - 
+2023-01-09 12:32:15,911 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\__init__.py', reloading 
+2023-01-09 12:32:16,154 INFO werkzeug :  * Restarting with stat 
+2023-01-09 12:32:17,766 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 12:32:17,775 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 12:32:35,866 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\brands\\controller.py', reloading 
+2023-01-09 12:32:36,210 INFO werkzeug :  * Restarting with stat 
+2023-01-09 12:32:37,686 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 12:32:37,693 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 12:32:41,240 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 12:32:41] "[35m[1mGET /brand/filter-by-name?brand_name=max HTTP/1.1[0m" 500 - 
+2023-01-09 12:33:16,406 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\__init__.py', reloading 
+2023-01-09 12:33:16,731 INFO werkzeug :  * Restarting with stat 
+2023-01-09 12:33:18,650 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 12:33:18,661 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 12:33:18,779 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 12:33:18] "[35m[1mGET /brand/filter-by-name?brand_name=max HTTP/1.1[0m" 500 - 
+2023-01-09 12:33:27,927 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\__init__.py', reloading 
+2023-01-09 12:33:28,140 INFO werkzeug :  * Restarting with stat 
+2023-01-09 12:33:29,759 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 12:33:29,764 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 12:33:29,873 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 12:33:29] "[35m[1mGET /brand/filter-by-name?brand_name=max HTTP/1.1[0m" 500 - 
+2023-01-09 12:34:45,244 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\__init__.py', reloading 
+2023-01-09 12:34:45,582 INFO werkzeug :  * Restarting with stat 
+2023-01-09 12:34:47,361 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 12:34:47,368 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 12:34:47,536 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 12:34:47] "[35m[1mGET /brand/filter-by-name?brand_name=max HTTP/1.1[0m" 500 - 
+2023-01-09 13:00:53,979 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\brands\\controller.py', reloading 
+2023-01-09 13:00:54,379 INFO werkzeug :  * Restarting with stat 
+2023-01-09 13:00:56,751 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 13:00:56,760 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 13:00:56,881 ERROR root : Details Not found - http://localhost:8080/ - b'': the given data is not present in database 
+2023-01-09 13:00:56,883 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 13:00:56] "[33mGET /brand/filter-by-name?brand_name=max HTTP/1.1[0m" 404 - 
+2023-01-09 13:03:32,224 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\brands\\controller.py', reloading 
+2023-01-09 13:03:32,489 INFO werkzeug :  * Restarting with stat 
+2023-01-09 13:03:33,929 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 13:03:33,935 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 13:08:49,577 INFO werkzeug : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080 
+2023-01-09 13:08:49,577 INFO werkzeug : [33mPress CTRL+C to quit[0m 
+2023-01-09 13:08:49,581 INFO werkzeug :  * Restarting with stat 
+2023-01-09 13:08:51,124 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 13:08:51,129 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 13:08:55,610 ERROR root : Details Not found - http://localhost:8080/ - b'': the given data is not present in database 
+2023-01-09 13:08:55,612 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 13:08:55] "[33mGET /brand/filter-by-name?brand_name=max HTTP/1.1[0m" 404 - 
