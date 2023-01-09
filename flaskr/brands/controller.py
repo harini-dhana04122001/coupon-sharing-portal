@@ -4,10 +4,11 @@ import uuid
 
 from flask import Blueprint, request, Response, jsonify
 
+from flaskr.brands.models import Brand
+from flaskr.brands.service import add_brand, get_all_brands, get_by_brand, get_by_type, update_brand, delete_brand
 from flaskr.exceptions.apivalidationerror import ErrorResponse
 from flaskr.exceptions.notfoundexception import NotFoundException
 from flaskr.transactions.models import Transaction
-from flaskr.brands.models import Brand
 from flaskr.utilfile.utilclass import validate_name
 
 display = Blueprint('display', __name__)
@@ -41,7 +42,9 @@ def create_brands():
             raise ErrorResponse('brand type is empty')
         else:
             brand_type = brand_data['type']
-            Brand.add_brand(brand_name, brand_type)
+            if Brand.query.filter_by(name=brand_name).first() is not None:
+                raise ErrorResponse('brand already present in database')
+            add_brand(brand_name, brand_type)
             response = Response("Brand added successfully", 201, mimetype='application/json')
             return response
 
@@ -55,7 +58,7 @@ this method to get all brand
 
 @display.route('/', methods=['GET'])
 def get_brands():
-    brand_details = Brand.get_all_brands()
+    brand_details = get_all_brands()
     if brand_details is not None:
         logging.info('Exiting get_brands method')
         return jsonify({'Brand_Details': brand_details})
@@ -73,9 +76,9 @@ method to get all brand with given brand name
 
 
 @display.route('/filter-by-name', methods=['GET'])
-def get_by_brand():
+def get_by_brands():
     brand_name = request.args.get('brand_name')
-    brand_by_name = Brand.get_by_brand(brand_name)
+    brand_by_name = get_by_brand(brand_name)
     if brand_by_name is not None:
         return jsonify({'User_Details': brand_by_name})
     else:
@@ -91,9 +94,9 @@ method to get all brand with given brand type
 
 
 @display.route('/filter-by-type', methods=['GET'])
-def get_by_type():
+def get_by_types():
     brand_type = request.args.get('brand_type')
-    brand_by_type = Brand.get_by_type(brand_type)
+    brand_by_type = get_by_type(brand_type)
     if brand_by_type is not None:
         return jsonify({'User_Details': brand_by_type})
     else:
@@ -112,19 +115,19 @@ def update_by_value(brand_id):
         brand_name = brand_data['name']
         brand_type = brand_data['type']
         key = "both"
-        Brand.update_brand(brand_id, key, brand_name, brand_type)
+        update_brand(brand_id, key, brand_name, brand_type)
         response = Response("Brand updated successfully", 200, mimetype='application/json')
         return response
     elif 'name' in brand_data.keys():
         brand_name = brand_data['name']
         key = 'name'
-        Brand.update_brand(brand_id, key, brand_name)
+        update_brand(brand_id, key, brand_name)
         response = Response("Brand name updated successfully", 200, mimetype='application/json')
         return response
     elif 'type' in brand_data:
         brand_type = brand_data['type']
         key = 'type'
-        Brand.update_brand(brand_id, key, brand_type)
+        update_brand(brand_id, key, brand_type)
         response = Response("Brand type updated successfully", 200, mimetype='application/json')
         return response
 
@@ -139,8 +142,7 @@ def update_by_value(brand_id):
 @display.route('/<brand_id>', methods=['DELETE'])
 def delete_brand_by_id(brand_id):
     logging.info('ENTERING delete_user_by_id METHOD')
-    Brand.delete_brand(brand_id)
-    brand_deleted = Brand.query.filter_by(id=brand_id, is_active=False).first()
+    brand_deleted = delete_brand(brand_id)
     if brand_deleted is not None:
         response = Response("Deleted Successfully", 200, mimetype='application/json')
         logging.info('EXITING delete_user_by_id METHOD')
