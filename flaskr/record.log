@@ -1591,3 +1591,36 @@
 2023-01-09 15:18:13,471 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 15:18:13] "DELETE /brand/16 HTTP/1.1" 200 - 
 2023-01-09 15:18:37,645 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 15:18:37] "[32mGET /brand HTTP/1.1[0m" 308 - 
 2023-01-09 15:18:37,660 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 15:18:37] "GET /brand/ HTTP/1.1" 200 - 
+2023-01-09 15:33:23,977 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\service.py', reloading 
+2023-01-09 15:33:24,234 INFO werkzeug :  * Restarting with stat 
+2023-01-09 15:33:26,933 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 15:33:26,938 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 16:39:01,611 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\service.py', reloading 
+2023-01-09 16:39:01,821 INFO werkzeug :  * Restarting with stat 
+2023-01-09 16:39:03,756 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 16:39:03,760 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 16:46:06,102 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\service.py', reloading 
+2023-01-09 16:46:06,226 INFO werkzeug :  * Restarting with stat 
+2023-01-09 16:46:07,267 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 16:46:07,270 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 16:46:50,134 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 16:46:50] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 500 - 
+2023-01-09 16:47:32,735 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\auth\\auth.py', reloading 
+2023-01-09 16:47:32,965 INFO werkzeug :  * Restarting with stat 
+2023-01-09 16:47:34,536 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 16:47:34,539 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 16:47:35,555 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 16:47:35] "[35m[1mPOST /auth/sign-up HTTP/1.1[0m" 201 - 
+2023-01-09 16:47:45,190 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 16:47:45] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-09 16:47:45,217 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 16:47:45] "[35m[1mGET /user/ HTTP/1.1[0m" 500 - 
+2023-01-09 16:48:23,091 INFO werkzeug :  * Detected change in 'C:\\Users\\LENOVO\\PycharmProjects\\couponsharingportal\\flaskr\\users\\service.py', reloading 
+2023-01-09 16:48:23,291 INFO werkzeug :  * Restarting with stat 
+2023-01-09 16:48:24,431 WARNING werkzeug :  * Debugger is active! 
+2023-01-09 16:48:24,435 INFO werkzeug :  * Debugger PIN: 190-881-970 
+2023-01-09 16:48:24,472 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 16:48:24] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-09 16:48:24,496 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 16:48:24] "GET /user/ HTTP/1.1" 200 - 
+2023-01-09 16:48:48,767 ERROR root : Details Not found - http://localhost:8080/ - b'': the given data is not present in database 
+2023-01-09 16:48:48,768 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 16:48:48] "[33mGET /user/filter-by-contact?contact=1234554211 HTTP/1.1[0m" 404 - 
+2023-01-09 16:48:59,173 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 16:48:59] "GET /user/filter-by-contact?contact=1234567890 HTTP/1.1" 200 - 
+2023-01-09 16:49:52,118 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 16:49:52] "DELETE /user/1234553211 HTTP/1.1" 200 - 
+2023-01-09 16:50:21,128 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 16:50:21] "[35m[1mPUT /user/update/2 HTTP/1.1[0m" 201 - 
+2023-01-09 16:50:36,451 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 16:50:36] "[32mGET /user HTTP/1.1[0m" 308 - 
+2023-01-09 16:50:36,461 INFO werkzeug : 127.0.0.1 - - [09/Jan/2023 16:50:36] "GET /user/ HTTP/1.1" 200 - 

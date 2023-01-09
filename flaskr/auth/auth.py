@@ -4,6 +4,7 @@ from flask import Blueprint, request, Response
 from flaskr.enums.enum_class import Gender
 from flaskr.exceptions.apivalidationerror import ErrorResponse
 from flaskr.users.models import User
+from flaskr.users.service import add_user
 from flaskr.utilfile.utilclass import validate_number, validate_date, validate_name
 
 auth_ = Blueprint('auth', __name__)
@@ -67,6 +68,6 @@ def sign_up():
                     return response
                 else:
                     password = user_data['password']
-                    User.add_user(username, contact_number, date_of_birth, gender, password)
+                    add_user(username, contact_number, date_of_birth, gender, password)
                     response = Response("User added successfully", 201, mimetype='application/json')
                     return response
