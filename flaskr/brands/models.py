@@ -1,5 +1,5 @@
 from datetime import datetime
-from flaskr import db
+from flaskr.app import db
 
 
 class Brand(db.Model):

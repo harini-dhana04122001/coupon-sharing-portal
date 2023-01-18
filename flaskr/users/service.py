@@ -2,7 +2,8 @@ from datetime import datetime
 import logging
 import pickle
 
-from flaskr import NotFoundException, db
+from flaskr.app import db
+from flaskr.exceptions.notfoundexception import NotFoundException
 from flaskr.users.models import User
 from flaskr.utilfile.utilclass import calculate_age
 
@@ -21,7 +22,7 @@ def display(data):
                 'contact_number': data.contact_number, 'age': calculate_age(data.date_of_birth),
                 'gender': data.gender, 'created_by': pickle.loads(data.created_by).username}
     else:
-        raise NotFoundException('the given data is not present in database')
+        raise NotFoundException('the given user data is not present in database')
 
 
 """
@@ -115,17 +116,19 @@ def delete_user_by_contact(contact):
 
 
 """
-This method update brand with given brand id
-
-:arg brand_id: the argument have brand id
-:arg key: it have the key with which we can update the brand
-:arg *args: it can have multiple argument.
+This method is to update user details.
+    
+:param user_id: this contains the id of user
+:param username: this contains the name of user
+:param contact_number: this contains the contact number of user
+:param date_of_birth: this contains the date of birth of user
+:param gender: this contains the gender of user
+:param password: this contains the password of user
 """
 
 
 def update_user(user_id, username, contact_number, date_of_birth, gender, password):
     user = User.query.filter_by(id=user_id, is_active=True).first()
-    a = User(username, contact_number, date_of_birth, gender)
     if username is not None:
         user.username = username
         user.updated_on = datetime.now()
@@ -147,6 +150,7 @@ def update_user(user_id, username, contact_number, date_of_birth, gender, passwo
         user.updated_by = User
 
     if password is not None:
+        a = User(username, contact_number, date_of_birth, gender)
         a.hash_password(password)
         user.updated_on = datetime.now()
         user.updated_by = User

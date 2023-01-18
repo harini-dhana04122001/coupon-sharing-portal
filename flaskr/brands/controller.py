@@ -1,6 +1,5 @@
 import datetime
 import logging
-import uuid
 
 from flask import Blueprint, request, Response, jsonify
 
@@ -8,13 +7,12 @@ from flaskr.brands.models import Brand
 from flaskr.brands.service import add_brand, get_all_brands, get_by_brand, get_by_type, update_brand, delete_brand
 from flaskr.exceptions.apivalidationerror import ErrorResponse
 from flaskr.exceptions.notfoundexception import NotFoundException
-from flaskr.transactions.models import Transaction
 from flaskr.utilfile.utilclass import validate_name
 
 display = Blueprint('display', __name__)
 
 """ 
-this method to create brand details 
+This method to create brand details 
 
 :raise: ErrorResponse if the given data doesn't follow validation conditions.
 """
@@ -25,32 +23,30 @@ def create_brands():
     brand_data = request.get_json()
     if "name" not in brand_data:
         raise ErrorResponse('brand name is not given')
+    elif brand_data['name'] is None:
+        raise ErrorResponse('brand name is empty')
+    elif not validate_name(brand_data['name']):
+        raise ErrorResponse('enter brand name with only number and alphabets')
     else:
-        if not validate_name(brand_data['name']):
-            raise ErrorResponse('enter brand name with only number and alphabets')
-        elif brand_data['name'] is None:
-            raise ErrorResponse('brand name is empty')
-        else:
-            brand_name = brand_data['name']
+        brand_name = brand_data['name']
 
     if "type" not in brand_data:
         raise ErrorResponse('brand type is not given')
+    elif brand_data['type'] is None:
+        raise ErrorResponse('brand type is empty')
+    elif not validate_name(brand_data['type']):
+        raise ErrorResponse('enter brand type with only alphabets')
     else:
-        if not validate_name(brand_data['type']):
-            raise ErrorResponse('enter brand type with only alphabets')
-        elif brand_data['type'] is None:
-            raise ErrorResponse('brand type is empty')
-        else:
-            brand_type = brand_data['type']
-            if Brand.query.filter_by(name=brand_name).first() is not None:
-                raise ErrorResponse('brand already present in database')
-            add_brand(brand_name, brand_type)
-            response = Response("Brand added successfully", 201, mimetype='application/json')
-            return response
+        brand_type = brand_data['type']
+        if Brand.query.filter_by(name=brand_name).first() is not None:
+            raise ErrorResponse('brand already present in database')
+        add_brand(brand_name, brand_type)
+        response = Response("Brand added successfully", 201, mimetype='application/json')
+        return response
 
 
 """ 
-this method to get all brand 
+This method to get all brand 
 
 :return: return of brand details if brand details is not empty else return error response
 """
@@ -104,39 +100,35 @@ def get_by_types():
         return response
 
 
-""" method to update brand with given brand id """
+"""
+This method is to update user with given request data
+
+:arg brand_id: this argument contain id of brand.
+"""
 
 
 @display.route('/<brand_id>', methods=['PUT'])
 def update_by_value(brand_id):
     brand_data = request.get_json()
-    print(brand_data)
-    if 'name' and 'type' in brand_data.keys():
-        brand_name = brand_data['name']
-        brand_type = brand_data['type']
-        key = "both"
-        update_brand(brand_id, key, brand_name, brand_type)
+    brand_name = brand_data['name']
+    brand_type = brand_data['type']
+    if brand_data['name'] or brand_data['type'] is not None:
+        logging.info('request entering update_brand')
+        update_brand(brand_id, brand_name, brand_type)
         response = Response("Brand updated successfully", 200, mimetype='application/json')
+        logging.info('response is successfully sent from update_brand method')
         return response
-    elif 'name' in brand_data.keys():
-        brand_name = brand_data['name']
-        key = 'name'
-        update_brand(brand_id, key, brand_name)
-        response = Response("Brand name updated successfully", 200, mimetype='application/json')
-        return response
-    elif 'type' in brand_data:
-        brand_type = brand_data['type']
-        key = 'type'
-        update_brand(brand_id, key, brand_type)
-        response = Response("Brand type updated successfully", 200, mimetype='application/json')
-        return response
-
     else:
         response = Response("Brand not found", 404, mimetype='application/json')
         return response
 
 
-""" method to soft delete brand with given brand id """
+""" 
+Delete user by given brand id  
+
+:arg contact: the argument have id of brand
+:return: return successful if deletion is complete else return error occured in the method
+"""
 
 
 @display.route('/<brand_id>', methods=['DELETE'])
@@ -153,18 +145,11 @@ def delete_brand_by_id(brand_id):
         return response
 
 
-""" method to buy coupon """
+"""
+This method handle exception that are raised for NotFoundException.
 
-
-@display.route('/<coupon_id>', methods=['POST'])
-def buy_coupon():
-    buying_data = request.get_json()
-    coupon_id = str(uuid.uuid4())
-    buyer_id = buying_data['buyer_id']
-    price = buying_data['price']
-    Transaction.buy_coupons(coupon_id, buyer_id, price)
-    response = Response("Coupons added successfully", 201, mimetype='application/json')
-    return response
+:return: response with error description, code, and timestamp in form of json
+"""
 
 
 @display.errorhandler(NotFoundException)
@@ -174,6 +159,6 @@ def handle_exception(err):
                 "timestamp": datetime.datetime.now()}
     if len(err.args) > 0:
         response["message"] = err.args[0]
-        # Add some logging so that we can monitor different types of errors
+        # Adding some logging so that we can monitor different types of errors
         logging.error(f'{err.description} - {request.url_root} - {request.get_data()}: {response["message"]}')
         return jsonify(response), 404
