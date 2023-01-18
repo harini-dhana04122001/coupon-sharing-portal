@@ -43,7 +43,7 @@ def get_by_contact():
         logging.info('EXITING get_by_contact METHOD')
         return jsonify({'User_Details': user_detail_by_contact})
     else:
-        logging.error(f'error occurred in get_by_contact method : {request.url_root} - {request.get_json()}')
+        logging.error(f'error occurred in get_by_contact method : {request.url} - {request.get_json()}')
         response = Response("There is no details with this contact number", 404, mimetype='application/json')
         return response
 
@@ -72,9 +72,9 @@ def delete_user_by_contacts(contact):
 
 
 """
-This method is to create user with given request data
+This method is to update user with given request data
 
-:raise: ErrorResponse if the given data doesn't follow validation conditions.
+:arg user_id: this argument contain id of user.
 """
 
 
@@ -106,6 +106,6 @@ def handle_exception(err):
                 "timestamp": datetime.datetime.now()}
     if len(err.args) > 0:
         response["message"] = err.args[0]
-        # Add some logging so that we can monitor different types of errors
+        # Adding some logging so that we can monitor different types of errors
         logging.error(f'{err.description} - {request.url_root} - {request.get_data()}: {response["message"]}')
         return jsonify(response), 404

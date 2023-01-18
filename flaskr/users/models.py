@@ -1,11 +1,7 @@
-import logging
 import pickle
 from datetime import datetime
-from flaskr import db
+from flaskr.app import db
 from passlib.apps import custom_app_context as pwd_context
-
-from flaskr.exceptions.notfoundexception import NotFoundException
-from flaskr.utilfile.utilclass import calculate_age
 
 
 class User(db.Model):
@@ -17,7 +13,8 @@ class User(db.Model):
     date_of_birth = db.Column(db.DateTime)
     gender = db.Column(db.String())
     password_hash = db.Column(db.String())
-    coupons = db.relationship('Coupon', backref='user', lazy=True)
+    user_coupons = db.relationship('Coupon', foreign_keys="Coupon.user_id", lazy=True)
+    current_user_coupons = db.relationship('Coupon', foreign_keys='Coupon.current_user_id', lazy=True)
     buyer_transaction = db.relationship('Transaction', foreign_keys="Transaction.buyer_id", lazy=True)
     seller_transaction = db.relationship('Transaction', foreign_keys="Transaction.seller_id", lazy=True)
     created_on = db.Column(db.DateTime)

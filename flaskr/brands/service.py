@@ -1,6 +1,7 @@
 from datetime import datetime
 
-from flaskr import db, NotFoundException
+from flaskr.app import db
+from flaskr.exceptions.notfoundexception import NotFoundException
 from flaskr.brands.models import Brand
 
 """
@@ -17,7 +18,7 @@ def json(data):
         return {'id': data.id, 'brand_name': data.name,
                 'brand_type': data.types}
     else:
-        raise NotFoundException('the given data is not present in database')
+        raise NotFoundException('the given brand data is not present in database')
 
 
 """
@@ -90,13 +91,13 @@ This method update brand with given brand id
 """
 
 
-def update_brand(brand_id, key, *args):
+def update_brand(brand_id, *args):
     brand = Brand.query.filter_by(id=brand_id, is_active=True).first()
-    if key == 'name':
+    if args[1] is None:
         brand.name = args[0]
         brand.updated_on = datetime.now()
         db.session.commit()
-    elif key == 'type':
+    elif args[0] is None:
         brand.types = args[0]
         brand.updated_on = datetime.now()
         db.session.commit()
@@ -118,4 +119,4 @@ def delete_brand(brand_id):
     brand_by_id = Brand.query.filter_by(id=brand_id, is_active=True).first()
     brand_by_id.is_active = False
     db.session.commit()
-    return json(Brand.query.filter_by(id=brand_id, is_active=False).first())
+
