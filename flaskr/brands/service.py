@@ -18,7 +18,7 @@ def json(data):
         return {'id': data.id, 'brand_name': data.name,
                 'brand_type': data.types}
     else:
-        raise NotFoundException('the given brand data is not present in database')
+        raise NotFoundException('the given brand data is not present in database', 'Details Not Found')
 
 
 """
@@ -43,7 +43,10 @@ This method displays all the brand which is present in database
 
 
 def get_all_brands():
-    return [json(brand) for brand in Brand.query.filter_by(is_active=True).all()]
+    brand_details = [json(brand) for brand in Brand.query.filter_by(is_active=True).all()]
+    if brand_details is None:
+        return NotFoundException('There is no data present in the database', 'Details Not Present')
+    return
 
 
 """
@@ -98,7 +101,7 @@ def update_brand(brand_id, *args):
         brand.updated_on = datetime.now()
         db.session.commit()
     elif args[0] is None:
-        brand.types = args[0]
+        brand.types = args[1]
         brand.updated_on = datetime.now()
         db.session.commit()
     else:

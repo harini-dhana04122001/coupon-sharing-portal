@@ -1,10 +1,6 @@
-import logging
-from datetime import datetime
-
 from flask import Blueprint, request, Response, jsonify
 from flaskr.coupons.service import add_coupon, get_coupon_by_id, get_coupon_by_brand, get_coupon_by_brand_type, \
     get_all_coupons, get_coupon_by_user, buy_coupon, update_coupon
-from flaskr.exceptions.notfoundexception import NotFoundException
 
 display = Blueprint('display', __name__)
 
@@ -24,13 +20,10 @@ def create_coupons():
     name = coupon_data['name']
     description = coupon_data['description']
     offer = coupon_data['offer']
-    coupon_code = coupon_data['coupon_code']
-    brand_name = coupon_data['brand_name']
-    unique_number = coupon_data['unique_number']
-    expiry_date = coupon_data['expiry_date']
-    price = coupon_data['price']
-    add_coupon(user_id, current_user_id, name, description, offer, coupon_code, brand_name, unique_number, expiry_date,
-               price)
+    sale_price = coupon_data['price']
+    coupon_url = coupon_data['coupon_url']
+    qr_url = coupon_data['qr_url']
+    add_coupon(user_id, current_user_id, name, description, offer, sale_price, coupon_url, qr_url)
     response = Response("Coupons added successfully", 201, mimetype='application/json')
     return response
 
@@ -99,7 +92,7 @@ def get_by_coupon_by_user(user_name):
     if coupon_by_user is not None:
         return jsonify({'Coupon_Details': coupon_by_user})
     else:
-        response = Response("There is no coupon details with this user", 404, mimetype='application/json')
+        response = Response("There is no coupon details with this user id", 404, mimetype='application/json')
         return response
 
 
@@ -144,21 +137,3 @@ def update_users(coupon_id):
         response = Response("Coupon update successfully", 201, mimetype='application/json')
         return response
 
-
-"""
-This method handle exception that are raised for NotFoundException.
-
-:return: response with error description, code, and timestamp in form of json
-"""
-
-
-@display.errorhandler(NotFoundException)
-def handle_exception(err):
-    """Return custom JSON when APIError are raised"""
-    response = {"error": err.description, "status code": 404, "message": "",
-                "timestamp": datetime.now()}
-    if len(err.args) > 0:
-        response["message"] = err.args[0]
-        # Adding some logging so that we can monitor different types of errors
-        logging.error(f'{err.description} - {request.url_root} - {request.get_data()}: {response["message"]}')
-        return jsonify(response), 404

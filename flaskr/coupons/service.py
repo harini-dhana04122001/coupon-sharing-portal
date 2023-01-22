@@ -1,5 +1,11 @@
 from datetime import datetime
 import pickle
+import re
+
+import numpy as np
+import cv2
+import pytesseract
+from pyzbar.pyzbar import decode
 
 from flaskr.app import db
 from flaskr.exceptions.notfoundexception import NotFoundException
@@ -22,10 +28,46 @@ def coupon_json(data):
         return {'id': data.id, 'coupon_name': data.name,
                 'description': data.description, 'offer': data.offer,
                 'coupon_code': data.coupon_code, 'brand': get_by_id(data.brand_id),
-                'qr/bar code': data.coupon_key, 'user': get_user_by_id(data.user_id),
+                'qr/bar code': data.coupon_key, 'user': get_user_by_id(data.current_user_id),
                 'expiry_date': data.expiry_date, 'price': data.sale_price}
     else:
         raise NotFoundException('the given coupon data is not present in database')
+
+
+""" This method is to process front page of a coupon."""
+
+
+def preprocess_coupon(img_url):
+    image = np.array(cv2.imread(img_url))
+    image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    kernel = np.ones((1, 1), np.uint8)
+    image = cv2.dilate(image, kernel, iterations=1)
+    image = cv2.erode(image, kernel, iterations=1)
+    _, image = cv2.threshold(image, 190, 255, cv2.THRESH_BINARY_INV)
+    cv2.imshow('image', image)
+    image = cv2.adaptiveThreshold(image, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
+                                  cv2.THRESH_BINARY_INV, 11, 2)
+    return image
+
+
+"""
+ This method is to get unique id from bar code of a coupon. 
+ :arg image_url: This contains the url of coupon Bar/QR for which decoding is done.
+ :return decode_qr: This method returns the decoded value of Qr/Bar
+"""
+
+
+def preprocess_coupon_bar(img_url):
+    image = np.array(cv2.imread(img_url))
+    gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    kernel = np.ones((1, 1), np.uint8)
+    dilate_image = cv2.dilate(gray_image, kernel, iterations=1)
+    erode_image = cv2.erode(dilate_image, kernel, iterations=1)
+    _, threshold_image = cv2.threshold(erode_image, 190, 255, cv2.THRESH_BINARY)
+    decoded_qr = decode(threshold_image)
+    for i in decoded_qr:
+        a = i.data.decode('ascii')
+    return a
 
 
 """
@@ -44,12 +86,39 @@ def coupon_json(data):
 """
 
 
-def add_coupon(user_id, current_user_id, name, description, offer, coupon_code, brand_name, unique_number, expiry_date,
-               sale_price):
-    brand_by_name = get_by_brand(brand_name)
-    coupon = Coupon(user_id, current_user_id, name, description, offer, coupon_code, sale_price, brand_by_name['id'],
-                    unique_number, expiry_date)
+def add_coupon(user_id, current_user_id, name, description, offer, sale_price, image_url, qr_img_url):
+    # going to process the coupon to extract certain values
+    pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+    image = preprocess_coupon(image_url)
+    text = pytesseract.image_to_string(
+            image, lang='eng',
+            config=r"-c tessedit_char_whitelist='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ&.₹ ' --psm 11")
+    # get brand name from the extracted text
 
+    start_index = 0
+    new_word = 0
+    example_brand_name = [{'id': 1, 'name': 'max', 'type': 'clothing'}, {'id': 2, 'name': 'trends', 'type': 'clothing'}]
+    for i in example_brand_name:
+        new_word = len(i['name'])
+        print(new_word)
+        match_word = re.search(i['name'].upper(), text)
+        if match_word:
+            start_index = match_word.span()[0]
+    brand_name = text[start_index:start_index + new_word]
+    # get date from the extracted text
+
+    date = text.split("VALID FROM ")[1].split("10")
+    formatted_date = date[1].lower().title()
+    expiry_date = datetime.strptime(f'{formatted_date[0]} {formatted_date[2:5]} {formatted_date[7:11]}',
+                                    '%d %b %Y').strftime('%d/%m/%Y')
+    # expiry_date = date[1]
+    coupon_code = ' '
+    brand_by_name = get_by_brand(brand_name.lower())
+    unique_number = preprocess_coupon_bar(qr_img_url)
+    if coupon_code == ' ':
+        coupon_code = unique_number
+    coupon = Coupon(user_id, current_user_id, name, description, offer, coupon_code, sale_price, brand_by_name['id'],
+                    unique_number, expiry_date, image_url)
     coupon.created_by = pickle.dumps(get_user_by_id(user_id))
     coupon.updated_by = coupon.created_by
     if brand_by_name is not None:
@@ -120,7 +189,6 @@ This method displays coupon with the given user name
 
 def get_coupon_by_user(user_name):
     brand_by_user = get_user_by_username(user_name)
-
     coupon_by_user_id = coupon_json(Coupon.query.filter_by(user_id=brand_by_user['id']).first())
     if coupon_by_user_id is not None:
         return coupon_by_user_id
@@ -166,7 +234,7 @@ def update_coupon(coupon_id, name, description, offer, coupon_code, brand_name, 
         coupon.sale_price = price
 
     coupon.updated_on = datetime.now()
-    coupon.updated_by = pickle.dumps(coupon.user_id)
+    coupon.updated_by = pickle.dumps(get_user_by_id(coupon.user_id))
     db.session.commit()
 
 
@@ -182,12 +250,14 @@ This method after successful purchase generate transaction details for the purch
 def buy_coupon(coupon_id, buyer_id):
     payment_status = Payment.pay().lower()
     if payment_status == 'successful':
-        coupon_by_id = Coupon.query.filter_by(id=coupon_id).first()
-        seller_id = coupon_by_id.current_user_id
-        coupon_price = coupon_by_id.sale_price
-        coupon_by_id.current_user_id = buyer_id
-        coupon_by_id.updated_on = datetime.now()
-        db.session.commit()
-        status = 1
-        create_transaction(status, coupon_id, buyer_id, seller_id, coupon_price)
-
+        if get_user_by_id(buyer_id) is not None:
+            coupon_by_id = Coupon.query.filter_by(id=coupon_id).first()
+            seller_id = coupon_by_id.current_user_id
+            coupon_price = coupon_by_id.sale_price
+            coupon_by_id.current_user_id = buyer_id
+            coupon_by_id.updated_on = datetime.now()
+            db.session.commit()
+            status = 1
+            create_transaction(status, coupon_id, buyer_id, seller_id, coupon_price)
+        else:
+            raise NotFoundException("buyer with the id is not present", "Details Not Found")

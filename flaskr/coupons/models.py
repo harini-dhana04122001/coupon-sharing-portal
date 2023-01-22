@@ -1,14 +1,7 @@
-import pickle
-
 from sqlalchemy import ForeignKey
 
-from flaskr.brands.models import Brand
 from datetime import datetime
 from flaskr.app import db
-from flaskr.exceptions.notfoundexception import NotFoundException
-from flaskr.payments.models import Payment
-from flaskr.transactions.models import Transaction
-from flaskr.users.models import User
 
 
 class Coupon(db.Model):
@@ -35,7 +28,7 @@ class Coupon(db.Model):
     is_active = db.Column(db.Boolean, default=True)
 
     def __init__(self, user_id, current_user_id, name, description, offer, coupon_code, price, brand_id, unique_number,
-                 expiry_date):
+                 expiry_date, img_url):
         self.user_id = user_id
         self.current_user_id = current_user_id
         self.name = name
@@ -46,6 +39,7 @@ class Coupon(db.Model):
         self.brand_id = brand_id
         self.coupon_key = unique_number
         self.expiry_date = expiry_date
+        self.image_url = img_url
         self.created_on = datetime.now()
         self.updated_on = datetime.now()
 
